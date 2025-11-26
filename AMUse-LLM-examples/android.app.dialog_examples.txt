@@ -1,0 +1,20 @@
+public void removeSplashScreen() { if (splashDialog != null && splashDialog.isShowing()) { splashDialog.dismiss(); splashDialog = null; } }
+protected void toDismissDialog(Dialog dialog) { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+public void removeSplashScreen() { if (splashDialog != null && splashDialog.isShowing()) { splashDialog.dismiss(); splashDialog = null; } }
+public void removeSplashScreen() { if (splashDialog != null && splashDialog.isShowing()) { splashDialog.dismiss(); splashDialog = null; } }
+@Override public void onFinish(int what) { if (mDialog != null && mDialog.isShowing()) mDialog.dismiss(); }
+return; if (groupDialog != null && groupDialog.isShowing()) groupDialog.dismiss();
+@Override public void destroy() { if (activeDialog != null && activeDialog.isShowing()) { WXLogUtils.w("Dismiss the active dialog"); activeDialog.dismiss(); } }
+public static void dismissDialogSafe(Dialog dialog, Activity activity) { if (dialog == null || !dialog.isShowing()) return; if (activity.isFinishing()) return; if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN && activity.isDestroyed()) return; dialog.dismiss(); }
+@Override public void cancelDialog() { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+@Override public void cancelDialog() { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+private void hideDialog() { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+public void onActivityDestroy() { if (mDialog == null || !mDialog.isShowing()) { return; } mDialog.dismiss(); }
+public static void dismiss(Dialog dialog) { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+public static void closeDialog(Dialog mDialogUtils) { if (mDialogUtils != null && mDialogUtils.isShowing()) { mDialogUtils.dismiss(); } }
+public void dismissDialog(Dialog dialog) { if (dialog.isShowing()) { dialog.dismiss(); } mShowDialogs.remove(dialog); }
+public void dismissDialog() { if (mDialog == null) return; Dialog dialog = mDialog.get(); if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } }
+final void destroyDialog() { if (dialog != null) { dialogIsShowing = dialog.isShowing(); dialog.setOnDismissListener(null); dialog.dismiss(); dialog = null; } }
+@Override protected void onDetachedFromWindow() { super.onDetachedFromWindow(); if (mSubDialog != null && mSubDialog.isShowing()) { mSubDialog.dismiss(); } if (mDragViewIsShow) { mWindowManager.removeViewImmediate(mDragView); mDragViewIsShow = false; } }
+@Test public void onResumeDialogShouldNotDismissedWhenGPSNotActivated() { defaultLocationProvider.askForEnableGPS(); when(dialog.isShowing()).thenReturn(true); disableLocationProvider(); defaultLocationProvider.onResume(); verify(dialog, never()).dismiss(); }
+@Test public void onResumeDialogShouldDismissWhenDialogIsOnAndGPSIsActivated() { defaultLocationProvider.askForEnableGPS(); when(dialog.isShowing()).thenReturn(true); enableLocationProvider(); defaultLocationProvider.onResume(); verify(dialog).dismiss(); verify(defaultLocationProvider).onGPSActivated(); }

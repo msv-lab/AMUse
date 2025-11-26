@@ -1,21 +1,3 @@
-# AMUse
-
-Patching Java Programs with Datalog
-
-## Set up
-
-To build a Docker image of this repository and run it on Docker you need to build the image:
-
-    docker build . -t amuse
-
-
-## Materials
-
-1. MUBench source projects: https://drive.google.com/file/d/1FIMQ7-4nlOd7ZQxYvxvpTG-Z8gA3j32s/view?usp=drive_link
-
-2. AMUse examples: https://drive.google.com/drive/folders/1M5KfD7H6TFT_AjcyAU3svxFO50xVFZP9?usp=drive_link
-
-
 ## TODO
 ~~1. Fix analyser.dl by replacing the 'call_name(_, t, t_base, t_meth_sig)' with 'label(t, t_meth_sig), variable(t_base, t_meth_sig).'~~
 

@@ -1,0 +1,20 @@
+@Override protected void onDestroy () { super.onDestroy(); }
+@Override protected void onDestroy () { super.onDestroy(); }
+@Override protected void onDestroy() { super.onDestroy(); maintainedDependency = null; recreatedDependency = null; maintainedAbstracted = null; someObject = null; }
+@Override protected void onDestroy() { super.onDestroy(); } }
+@Override protected void onDestroy () { executor.shutdown(); super.onDestroy(); }
+@Override protected void onDestroy() { if (Log.isLoggable(TAG, Log.VERBOSE)) { Log.v(TAG, "ChooseTypeAndAccountActivity.onDestroy()"); } super.onDestroy(); }
+@Override protected void onDestroy() { super.onDestroy(); LoadLeaks.forgetActivity(); }
+@Override protected void onDestroy() { super.onDestroy(); disposables.clear(); }
+@Override protected void onDestroy() { dataManager.cancelLoading(); super.onDestroy(); }
+@Override public void onDestroy() { player.release(); super.onDestroy(); }
+@Override protected void onDestroy() { mSimpleIRCConnectionManager.shutdown(); mConnectionExecutor.shutdown(); mIsTearingDown = true; super.onDestroy(); }
+@Override protected void onDestroy() { super.onDestroy(); if (mDanmakuView != null) { mDanmakuView.release(); mDanmakuView = null; } }
+@Override protected void onDestroy () { super.onDestroy(); }
+@Override protected void onDestroy () {  if (adapter!=null) { adapter.close(); } super.onDestroy(); }
+public void onDestroy() { if (testRunner != null) { testRunner.cancel(); } controlBus.unregister(this); super.onDestroy(); } }
+@Override protected void onDestroy () { transcript.add("onDestroy"); super.onDestroy(); }
+@Override @CallSuper protected void onDestroy() { lifecycleSubject.onNext(ActivityEvent.DESTROY); super.onDestroy(); } }
+@Override protected void onDestroy() { if (dialog != null && dialog.isShowing()) { dialog.dismiss(); } super.onDestroy(); }
+@Override protected void onDestroy() { super.onDestroy(); transcribeWhilePaused("onDestroy"); transcript.add("finishedOnDestroy"); }
+@Override protected void onDestroy() { super.onDestroy(); if (mDanmakuView != null) { mDanmakuView.release(); mDanmakuView = null; } ImageLoader.getInstance().destroy(); }
