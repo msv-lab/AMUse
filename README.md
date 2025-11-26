@@ -1,6 +1,6 @@
 # AMUse
 
-Patching Java Programs with Datalog
+Application Programming Interfaces (APIs) play a critical role in modern software development by enabling modularity and code reuse. However, violations of API usage contracts, known as API misuses, can lead to software bugs and security vulnerabilities. AMUse automatically detects and repairs API misuses by leveraging inferred API specifications. First, it synthesizes API specifications expressed as Datalog rules from usage examples. Then, it uses these specifications to both detect and repair misuses.
 
 ## Set up
 
@@ -32,14 +32,13 @@ check the file `src/amuse/synthesiser.py` for running the synthesiser.
 
 ### Clean the output folder
 
-
     docker run -it -v $PWD/src:/amuse/src -v $PWD/.env:/amuse/.env -v $PWD/input:/amuse/input -v $PWD/output:/amuse/output --rm amuse ./amuse -clean
 
 ### Running Target Mode
 
 Then to run the patcher run the following code below. Note that the project should be built and provided with classpath initially.
 
-        docker run -it -v $PWD/src:/amuse/src -v $PWD/.env:/amuse/.env -v $PWD/input:/amuse/input -v $PWD/output:/amuse/output --rm amuse ./amuse -target *path to your java project*
+    docker run -it -v $PWD/src:/amuse/src -v $PWD/.env:/amuse/.env -v $PWD/input:/amuse/input -v $PWD/output:/amuse/output --rm amuse ./amuse -target *path to your java project*
 
 ## Input Language
 
