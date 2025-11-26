@@ -1,0 +1,776 @@
+{
+    "java.lang.String.equals": [
+        {
+            "id": "3",
+            "method_line_no": 36,
+            "in_method": "test",
+            "file_path": "/root/AMUse-data/samples/java.lang.String.equals/raw_3.java"
+        }
+    ],
+    "java.util.List.add": [
+        {
+            "id": "14",
+            "method_line_no": 585,
+            "in_method": "testCorrectOrdering_regression",
+            "file_path": "/root/AMUse-data/samples/java.util.List.add/raw_14.java"
+        }
+    ],
+    "java.lang.Object.getClass": [
+        {
+            "id": "8",
+            "method_line_no": 72,
+            "in_method": "onSubscribe",
+            "file_path": "/root/AMUse-data/samples/java.lang.Object.getClass/raw_8.java"
+        }
+    ],
+    "java.util.Map.put": [
+        {
+            "id": "18",
+            "method_line_no": 31,
+            "in_method": "addResults",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_18.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 52,
+            "in_method": "modifyEnvironment",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_6.java"
+        },
+        {
+            "id": "2",
+            "method_line_no": 4018,
+            "in_method": "putAllImpl",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_2.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 138,
+            "in_method": "getOrCreate",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_3.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 190,
+            "in_method": "putAll",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_15.java"
+        },
+        {
+            "id": "1",
+            "method_line_no": 583,
+            "in_method": "populate",
+            "file_path": "/root/AMUse-data/samples/java.util.Map.put/raw_1.java"
+        }
+    ],
+    "java.lang.Class.getName": [
+        {
+            "id": "13",
+            "method_line_no": 113,
+            "in_method": "checkHelperVersion",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_13.java"
+        },
+        {
+            "id": "12",
+            "method_line_no": 96,
+            "in_method": "runTestMethod",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_12.java"
+        },
+        {
+            "id": "18",
+            "method_line_no": 368,
+            "in_method": "testToString",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_18.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 568,
+            "in_method": "findClass",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_16.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 104,
+            "in_method": "checkHelperVersion",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_14.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 30,
+            "in_method": "testGetPackageName",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_20.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 1192,
+            "in_method": "checkStackTrace",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_17.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 167,
+            "in_method": "toString",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_3.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 36,
+            "in_method": "getPackageName",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_7.java"
+        },
+        {
+            "id": "19",
+            "method_line_no": 1925,
+            "in_method": "testToString",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_19.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 578,
+            "in_method": "resourceInfo",
+            "file_path": "/root/AMUse-data/samples/java.lang.Class.getName/raw_15.java"
+        }
+    ],
+    "java.util.HashMap._init_": [
+        {
+            "id": "11",
+            "method_line_no": 790,
+            "in_method": "multi_set",
+            "file_path": "/root/AMUse-data/samples/java.util.HashMap._init_/raw_11.java"
+        }
+    ],
+    "java.util.Set.add": [
+        {
+            "id": "2",
+            "method_line_no": 148,
+            "in_method": "computeValuesSetFeatures",
+            "file_path": "/root/AMUse-data/samples/java.util.Set.add/raw_2.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 962,
+            "in_method": "getRepeat",
+            "file_path": "/root/AMUse-data/samples/java.util.Set.add/raw_7.java"
+        },
+        {
+            "id": "19",
+            "method_line_no": 347,
+            "in_method": "create",
+            "file_path": "/root/AMUse-data/samples/java.util.Set.add/raw_19.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 241,
+            "in_method": "updateKeys",
+            "file_path": "/root/AMUse-data/samples/java.util.Set.add/raw_10.java"
+        },
+        {
+            "id": "11",
+            "method_line_no": 510,
+            "in_method": "eliminateDuplicates",
+            "file_path": "/root/AMUse-data/samples/java.util.Set.add/raw_11.java"
+        }
+    ],
+    "java.lang.IllegalArgumentException._init_": [
+        {
+            "id": "2",
+            "method_line_no": 119,
+            "in_method": "onPreCall",
+            "file_path": "/root/AMUse-data/samples/java.lang.IllegalArgumentException._init_/raw_2.java"
+        }
+    ],
+    "java.lang.StringBuilder.append": [
+        {
+            "id": "6",
+            "method_line_no": 674,
+            "in_method": "toString",
+            "file_path": "/root/AMUse-data/samples/java.lang.StringBuilder.append/raw_6.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 1065,
+            "in_method": "replaceFrom",
+            "file_path": "/root/AMUse-data/samples/java.lang.StringBuilder.append/raw_9.java"
+        }
+    ],
+    "java.util.Arrays.asList": [
+        {
+            "id": "18",
+            "method_line_no": 941,
+            "in_method": "testPartition_3_2",
+            "file_path": "/root/AMUse-data/samples/java.util.Arrays.asList/raw_18.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 148,
+            "in_method": "parseArtifactArgs",
+            "file_path": "/root/AMUse-data/samples/java.util.Arrays.asList/raw_16.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 157,
+            "in_method": "allocationAlternatives",
+            "file_path": "/root/AMUse-data/samples/java.util.Arrays.asList/raw_14.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 56,
+            "in_method": "testIterator",
+            "file_path": "/root/AMUse-data/samples/java.util.Arrays.asList/raw_17.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 230,
+            "in_method": "cmds",
+            "file_path": "/root/AMUse-data/samples/java.util.Arrays.asList/raw_3.java"
+        }
+    ],
+    "java.util.Collections.emptyList": [
+        {
+            "id": "13",
+            "method_line_no": 912,
+            "in_method": "testPartition_empty",
+            "file_path": "/root/AMUse-data/samples/java.util.Collections.emptyList/raw_13.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 184,
+            "in_method": "get",
+            "file_path": "/root/AMUse-data/samples/java.util.Collections.emptyList/raw_20.java"
+        },
+        {
+            "id": "5",
+            "method_line_no": 38,
+            "in_method": "getNonProxyHostPatterns",
+            "file_path": "/root/AMUse-data/samples/java.util.Collections.emptyList/raw_5.java"
+        }
+    ],
+    "java.lang.Integer.parseInt": [
+        {
+            "id": "4",
+            "method_line_no": 294,
+            "in_method": "parse",
+            "file_path": "/root/AMUse-data/samples/java.lang.Integer.parseInt/raw_4.java"
+        }
+    ],
+    "java.lang.RuntimeException._init_": [
+        {
+            "id": "2",
+            "method_line_no": 117,
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/java.lang.RuntimeException._init_/raw_2.java"
+        }
+    ],
+    "java.io.File._init_": [
+        {
+            "id": "12",
+            "method_line_no": 2721,
+            "in_method": "setupFile",
+            "file_path": "/root/AMUse-data/samples/java.io.File._init_/raw_12.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 130,
+            "in_method": "save",
+            "file_path": "/root/AMUse-data/samples/java.io.File._init_/raw_6.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 33,
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/java.io.File._init_/raw_14.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 346,
+            "in_method": "ensureOutputDirectory",
+            "file_path": "/root/AMUse-data/samples/java.io.File._init_/raw_7.java"
+        },
+        {
+            "id": "1",
+            "method_line_no": 99,
+            "in_method": "fileExists",
+            "file_path": "/root/AMUse-data/samples/java.io.File._init_/raw_1.java"
+        }
+    ],
+    "java.util.Map$Entry.getValue": [
+        {
+            "id": "13",
+            "method_line_no": 181,
+            "in_method": "expectContents",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_13.java"
+        },
+        {
+            "id": "12",
+            "method_line_no": 136,
+            "in_method": "testOrderedAsMapEntries",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_12.java"
+        },
+        {
+            "id": "8",
+            "method_line_no": 583,
+            "in_method": "populate",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_8.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 62,
+            "in_method": "writeMap",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_7.java"
+        },
+        {
+            "id": "19",
+            "method_line_no": 4018,
+            "in_method": "putAllImpl",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_19.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 374,
+            "in_method": "order",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_10.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 190,
+            "in_method": "putAll",
+            "file_path": "/root/AMUse-data/samples/java.util.Map$Entry.getValue/raw_15.java"
+        }
+    ],
+    "java.lang.Exception.getMessage": [
+        {
+            "id": "4",
+            "method_line_no": 100,
+            "in_method": "afterPropertiesSet",
+            "file_path": "/root/AMUse-data/samples/java.lang.Exception.getMessage/raw_4.java"
+        }
+    ],
+    "java.util.Iterator.next": [
+        {
+            "id": "13",
+            "method_line_no": 158,
+            "in_method": "testSize_partiallyConsumed",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_13.java"
+        },
+        {
+            "id": "12",
+            "method_line_no": 46,
+            "in_method": "checkOut",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_12.java"
+        },
+        {
+            "id": "18",
+            "method_line_no": 146,
+            "in_method": "map",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_18.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 198,
+            "in_method": "getRemainingElementsCount",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_14.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 1504,
+            "in_method": "testAdvance_basic",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_9.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 157,
+            "in_method": "processPendingCommands",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_3.java"
+        },
+        {
+            "id": "19",
+            "method_line_no": 4347,
+            "in_method": "remove",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_19.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 75,
+            "in_method": "testAddAtIndexConcurrentWithIteration",
+            "file_path": "/root/AMUse-data/samples/java.util.Iterator.next/raw_10.java"
+        }
+    ],
+    "org.slf4j.Logger.info": [
+        {
+            "id": "13",
+            "method_line_no": 258,
+            "in_method": "initializeState",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_13.java"
+        },
+        {
+            "id": "4",
+            "method_line_no": 54,
+            "in_method": "print",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_4.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 98,
+            "in_method": "handleMessage",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_6.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 166,
+            "in_method": "logException",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_14.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 74,
+            "in_method": "rotateOutputFile",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_17.java"
+        },
+        {
+            "id": "5",
+            "method_line_no": 171,
+            "in_method": "getConsumersUnsafe",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_5.java"
+        },
+        {
+            "id": "2",
+            "method_line_no": 77,
+            "in_method": "stop",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_2.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 83,
+            "in_method": "dumpRideChain",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_7.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 2549,
+            "in_method": "getTableDescriptors",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_15.java"
+        },
+        {
+            "id": "11",
+            "method_line_no": 159,
+            "in_method": "notifyStart",
+            "file_path": "/root/AMUse-data/samples/org.slf4j.Logger.info/raw_11.java"
+        }
+    ],
+    "java.lang.Thread.currentThread": [
+        {
+            "id": "2",
+            "method_line_no": 67,
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/java.lang.Thread.currentThread/raw_2.java"
+        },
+        {
+            "id": "1",
+            "method_line_no": 66,
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/java.lang.Thread.currentThread/raw_1.java"
+        }
+    ],
+    "java.io.IOException._init_": [
+        {
+            "id": "6",
+            "method_line_no": 33,
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/java.io.IOException._init_/raw_6.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 106,
+            "in_method": "mkdirs",
+            "file_path": "/root/AMUse-data/samples/java.io.IOException._init_/raw_20.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 397,
+            "in_method": "readObject",
+            "file_path": "/root/AMUse-data/samples/java.io.IOException._init_/raw_10.java"
+        },
+        {
+            "id": "11",
+            "method_line_no": 46,
+            "in_method": "newProtocol",
+            "file_path": "/root/AMUse-data/samples/java.io.IOException._init_/raw_11.java"
+        }
+    ],
+    "java.util.HashSet._init_": [
+        {
+            "id": "13",
+            "method_line_no": 57,
+            "in_method": "act",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_13.java"
+        },
+        {
+            "id": "12",
+            "method_line_no": 91,
+            "in_method": "computeEntrySetFeatures",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_12.java"
+        },
+        {
+            "id": "4",
+            "method_line_no": 56,
+            "in_method": "keySet",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_4.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 57,
+            "in_method": "takeNodes",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_6.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 155,
+            "in_method": "whichGroupByTopic",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_16.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 966,
+            "in_method": "newlyAddedSlots",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_9.java"
+        },
+        {
+            "id": "19",
+            "method_line_no": 1225,
+            "in_method": "removeAll",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_19.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 116,
+            "in_method": "collectParameters",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_10.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 130,
+            "in_method": "getActiveWarnings",
+            "file_path": "/root/AMUse-data/samples/java.util.HashSet._init_/raw_15.java"
+        }
+    ],
+    "java.util.Collection.size": [
+        {
+            "id": "18",
+            "method_line_no": 151,
+            "in_method": "removeEntriesIf",
+            "file_path": "/root/AMUse-data/samples/java.util.Collection.size/raw_18.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 42,
+            "in_method": "testClear",
+            "file_path": "/root/AMUse-data/samples/java.util.Collection.size/raw_9.java"
+        },
+        {
+            "id": "2",
+            "method_line_no": 2872,
+            "in_method": "toArrayList",
+            "file_path": "/root/AMUse-data/samples/java.util.Collection.size/raw_2.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 62,
+            "in_method": "sizeLargerOrEqualThan",
+            "file_path": "/root/AMUse-data/samples/java.util.Collection.size/raw_7.java"
+        },
+        {
+            "id": "15",
+            "method_line_no": 364,
+            "in_method": "removeNotes",
+            "file_path": "/root/AMUse-data/samples/java.util.Collection.size/raw_15.java"
+        }
+    ],
+    "java.lang.Math.min": [
+        {
+            "id": "8",
+            "method_line_no": 197,
+            "in_method": "compare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_8.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 59,
+            "in_method": "testEviction_maxSizeOneSegment",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_20.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 631,
+            "in_method": "count",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_17.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 356,
+            "in_method": "newStringBuilderForCollection",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_9.java"
+        },
+        {
+            "id": "5",
+            "method_line_no": 643,
+            "in_method": "slice",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_5.java"
+        },
+        {
+            "id": "2",
+            "method_line_no": 392,
+            "in_method": "compare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_2.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 741,
+            "in_method": "read",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_3.java"
+        },
+        {
+            "id": "7",
+            "method_line_no": 163,
+            "in_method": "compare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_7.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 441,
+            "in_method": "compare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_10.java"
+        },
+        {
+            "id": "1",
+            "method_line_no": 290,
+            "in_method": "padToLong",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_1.java"
+        },
+        {
+            "id": "11",
+            "method_line_no": 391,
+            "in_method": "compare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Math.min/raw_11.java"
+        }
+    ],
+    "java.lang.Long.parseLong": [
+        {
+            "id": "16",
+            "method_line_no": 733,
+            "in_method": "getParameter",
+            "file_path": "/root/AMUse-data/samples/java.lang.Long.parseLong/raw_16.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 31,
+            "in_method": "valueOf",
+            "file_path": "/root/AMUse-data/samples/java.lang.Long.parseLong/raw_20.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 864,
+            "in_method": "computeMeanSafely",
+            "file_path": "/root/AMUse-data/samples/java.lang.Long.parseLong/raw_17.java"
+        }
+    ],
+    "java.lang.Boolean.valueOf": [
+        {
+            "id": "13",
+            "method_line_no": 191,
+            "in_method": "isForceUseTag",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_13.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 72,
+            "in_method": "testCompare",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_20.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 61,
+            "in_method": "getOption",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_17.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 29,
+            "in_method": "setProperties",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_9.java"
+        },
+        {
+            "id": "1",
+            "method_line_no": 162,
+            "in_method": "boxed",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_1.java"
+        },
+        {
+            "id": "11",
+            "method_line_no": 37,
+            "in_method": "getBooleanConfigParameter",
+            "file_path": "/root/AMUse-data/samples/java.lang.Boolean.valueOf/raw_11.java"
+        }
+    ],
+    "java.util.ArrayList._init_": [
+        {
+            "id": "9",
+            "method_line_no": 340,
+            "in_method": "SortedSetSubsetTestSetGenerator",
+            "file_path": "/root/AMUse-data/samples/java.util.ArrayList._init_/raw_9.java"
+        }
+    ],
+    "java.lang.System.currentTimeMillis": [
+        {
+            "id": "2",
+            "method_line_no": 141,
+            "in_method": "isExpired",
+            "file_path": "/root/AMUse-data/samples/java.lang.System.currentTimeMillis/raw_2.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 47,
+            "in_method": "ApplicationEvent",
+            "file_path": "/root/AMUse-data/samples/java.lang.System.currentTimeMillis/raw_3.java"
+        }
+    ],
+    "java.lang.IllegalStateException._init_": [
+        {
+            "id": "1",
+            "method_line_no": 42,
+            "in_method": "ThreadSafeLazyLoadedIvoryTower",
+            "file_path": "/root/AMUse-data/samples/java.lang.IllegalStateException._init_/raw_1.java"
+        },
+        {
+            "id": "2",
+            "method_line_no": 45,
+            "in_method": "ThreadSafeDoubleCheckLocking",
+            "file_path": "/root/AMUse-data/samples/java.lang.IllegalStateException._init_/raw_2.java"
+        },
+        {
+            "id": "3",
+            "method_line_no": 132,
+            "in_method": "onError",
+            "file_path": "/root/AMUse-data/samples/java.lang.IllegalStateException._init_/raw_3.java"
+        }
+    ],
+    "java.io.PrintStream.println": [
+        {
+            "id": "12",
+            "method_line_no": 2373,
+            "in_method": "confirmMetadataUpdate",
+            "file_path": "/root/AMUse-data/samples/java.io.PrintStream.println/raw_12.java"
+        }
+    ],
+    "java.lang.UnsupportedOperationException._init_": [
+        {
+            "id": "1",
+            "method_line_no": 158,
+            "in_method": "newCondition",
+            "file_path": "/root/AMUse-data/samples/java.lang.UnsupportedOperationException._init_/raw_1.java"
+        },
+        {
+            "id": "4",
+            "method_line_no": 158,
+            "in_method": "newCondition",
+            "file_path": "/root/AMUse-data/samples/java.lang.UnsupportedOperationException._init_/raw_4.java"
+        }
+    ]
+}

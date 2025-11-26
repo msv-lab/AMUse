@@ -1,0 +1,86 @@
+{
+    "java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream": {
+        "symbols": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call_name",
+                "args": [
+                    {
+                        "val": "java.io.DataOutputStream.flush()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbol"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbol"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbol"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbol"
+                    }
+                ],
+                "symbolic": false
+            }
+        ]
+    }
+}

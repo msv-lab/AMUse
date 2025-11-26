@@ -1,0 +1,14 @@
+public class test_snippet8 {
+    private String resolveEnvParams(Readable in) {
+        Scanner s = new Scanner(in).useDelimiter("\\A");
+        try {
+            boolean hasNext = s.hasNext();
+            if (hasNext) {
+                return resolveEnvParams(s.next());
+            }
+            return "";
+        } finally {
+            s.close();
+        }
+    }
+}

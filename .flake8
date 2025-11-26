@@ -1,0 +1,5 @@
+# Recommend matching the black line length (default 88),
+# rather than using the flake8 default of 79:
+[flake8]
+max-line-length = 88
+extend-ignore = E203

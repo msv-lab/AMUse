@@ -1,0 +1,27 @@
+org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear	org.joda.time.tz.ZoneInfoCompiler.cStartOfYear
+org.joda.time.Chronology	org.joda.time.tz.ZoneInfoCompiler.cLenientISO
+java.util.Map<java.lang.String, org.joda.time.tz.ZoneInfoCompiler.RuleSet>	iRuleSets
+java.util.List<org.joda.time.tz.ZoneInfoCompiler.Zone>	iZones
+java.util.List<java.lang.String>	iGoodLinks
+java.util.List<java.lang.String>	iBackLinks
+int	iMonthOfYear
+int	iDayOfMonth
+int	iDayOfWeek
+boolean	iAdvanceDayOfWeek
+int	iMillisOfDay
+char	iZoneChar
+java.lang.String	iName
+int	iFromYear
+int	iToYear
+java.lang.String	iType
+org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear	iDateTimeOfYear
+int	iSaveMillis
+java.lang.String	iLetterS
+java.util.List<org.joda.time.tz.ZoneInfoCompiler.Rule>	iRules
+java.lang.String	iName
+int	iOffsetMillis
+java.lang.String	iRules
+java.lang.String	iFormat
+int	iUntilYear
+org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear	iUntilDateTimeOfYear
+org.joda.time.tz.ZoneInfoCompiler.Zone	iNext

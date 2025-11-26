@@ -1,0 +1,16 @@
+#include "/root/amuse/documentation/crafted_dl/analyser.dl"
+
+.decl correct_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl incorrect_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.output correct_usage(IO=stdout)
+.output incorrect_usage(IO=stdout)
+
+correct_usage("android.app.ProgressDialog.dismiss()", s2, v2, in_meth) :-
+    call("ProgressDialog.isShowing()", s1, v1, in_meth),
+    assigned(v, s1, in_meth),
+    check(v, "ProgressDialog.isShowing()", v2, s2, in_meth, "EQ", "true"),
+    call("android.app.ProgressDialog.dismiss()", s2, v2, in_meth).
+
+incorrect_usage("android.app.ProgressDialog.dismiss()", s2, v2, in_meth) :-
+    !correct_usage("android.app.ProgressDialog.dismiss()", s2, v2, in_meth),
+    call("android.app.ProgressDialog.dismiss()", s2, v2, in_meth).

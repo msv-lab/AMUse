@@ -1,0 +1,38 @@
+#include "/root/amuse/documentation/crafted_dl/analyser.dl"
+
+.decl correct_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl incorrect_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl correct_usage1(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl correct_usage2(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl correct_usage3(v0:symbol, v1:number, v2:symbol, v3:symbol)
+
+.output correct_usage(IO=stdout)
+.output incorrect_usage(IO=stdout)
+
+
+correct_usage1("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth) :-
+    call("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth),
+    must_call_preceded_after_entry("javax.crypto.Cipher.doFinal(byte[])", v1, s1, in_meth, "javax.crypto.Cipher.init(int,java.security.Key,java.security.AlgorithmParameters)", v2),
+    v1=v2,
+    call("javax.crypto.Cipher.init(int,java.security.Key,java.security.AlgorithmParameters)", s2, v2, in_meth).
+
+correct_usage2("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth) :-
+    call("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth),
+    must_call_preceded_after_entry("javax.crypto.Cipher.doFinal(byte[])", v1, s1, in_meth, "javax.crypto.Cipher.init(int,java.security.cert.Certificate)", v2),
+    v1=v2,
+    call("javax.crypto.Cipher.init(int,java.security.cert.Certificate)", s2, v2, in_meth).
+
+correct_usage3("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth) :-
+    call("javax.crypto.Cipher.doFinal(byte[])", s1, v1, in_meth),
+    must_call_preceded_after_entry("javax.crypto.Cipher.doFinal(byte[])", v1, s1, in_meth, "javax.crypto.Cipher.init(int,java.security.Key)", v2),
+    v1=v2,
+    call("javax.crypto.Cipher.init(int,java.security.Key)", s2, v2, in_meth).
+
+correct_usage("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth) :-
+    correct_usage3("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth);
+    correct_usage2("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth);
+    correct_usage1("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth).
+
+incorrect_usage("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth) :-
+    !correct_usage("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth),
+    call("javax.crypto.Cipher.doFinal(byte[])", s2, v2, in_meth).

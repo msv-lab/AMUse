@@ -1,0 +1,57 @@
+Model 0
+Model: [a3 = 5,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)",
+ a4 = 3,
+ b1 = "itr",
+ a1 = -922336]
+Model 1
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = -922336,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 2
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = -922335,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 3
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = -922334,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 4
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = -922333,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 5
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = 2,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 6
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = 3,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+Model 7
+Model: [a1 = -922336,
+ a4 = 3,
+ b1 = "itr",
+ a3 = 4,
+ a2 = 4,
+ b2 = "mubench.examples.survey.OnlyNext.misuse(java.util.Collection)"]
+End to End Time: 2.347916841506958s

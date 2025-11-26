@@ -1,0 +1,16 @@
+#include "/root/amuse/documentation/crafted_dl/analyser.dl"
+
+.decl correct_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl incorrect_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.output correct_usage(IO=stdout)
+.output incorrect_usage(IO=stdout)
+
+correct_usage("java.io.File.mkdir()", s2, v2, in_meth) :-
+    call("java.io.File.exists()", s1, v1, in_meth),
+    assigned(v, s1, in_meth),
+    check(v, "java.io.File.exists()", v2, s2, in_meth, "EQ", "false"),
+    call("java.io.File.mkdir()", s2, v2, in_meth).
+
+incorrect_usage("java.io.File.mkdir()", s2, v2, in_meth) :-
+    !correct_usage("java.io.File.mkdir()", s2, v2, in_meth),
+    call("java.io.File.mkdir()", s2, v2, in_meth).

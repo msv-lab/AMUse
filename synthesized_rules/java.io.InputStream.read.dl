@@ -1,0 +1,18 @@
+#include "/root/amuse/documentation/crafted_dl/analyser.dl"
+
+.decl correct_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.decl incorrect_usage(v0:symbol, v1:number, v2:symbol, v3:symbol)
+.output correct_usage(IO=stdout)
+.output incorrect_usage(IO=stdout)
+
+
+correct_usage("java.io.InputStream.read(byte[])", s1, v1, in_meth) :-
+    call("java.io.InputStream.read(byte[])", s1, v1, in_meth),
+    must_call_followed_before_exit("java.io.InputStream.read(byte[])", v1, s1, in_meth, "java.io.InputStream.close()", v2),
+    v1=v2,
+    call("java.io.InputStream.close()", s2, v2, in_meth).
+
+
+incorrect_usage("java.io.InputStream.read(byte[])", s2, v2, in_meth) :-
+    !correct_usage("java.io.InputStream.read(byte[])", s2, v2, in_meth),
+    call("java.io.InputStream.read(byte[])", s2, v2, in_meth).

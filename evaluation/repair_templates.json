@@ -1,0 +1,1192 @@
+{
+    "java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.io.DataOutputStream.flush()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            }
+        ]
+    },
+    "java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.sql.ResultSet.close()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            }
+        ]
+    },
+    "java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close_bk": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            },
+            {
+                "name": "a6",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.io.DataOutputStream.flush()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a6",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            },
+            {
+                "name": "a6, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            }
+        ]
+    },
+    "java.util@Iterator@hasNext+java.util@Iterator@next": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "number"
+            },
+            {
+                "name": "a3",
+                "type": "number"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "b1",
+                "type": "symbol"
+            },
+            {
+                "name": "b2",
+                "type": "symbol"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.util.Iterator.hasNext()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "if",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "true_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "false_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a2",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            },
+            {
+                "name": "b1",
+                "domain": [
+                    {
+                        "type": "api_element",
+                        "api": "java.util.Iterator.next()",
+                        "element": {
+                            "type": "string",
+                            "relation_name": "call",
+                            "index": 2,
+                            "semantics": "caller"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "java.io.PrintWriter@close": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call_name",
+                "args": [
+                    {
+                        "val": "java.io.PrintWriter.close",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            }
+        ]
+    },
+    "javax.swing@JFrame@pack+javax.swing@JFrame@setVisible": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "javax.swing.JFrame.setVisible()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            }
+        ]
+    },
+    "java.util@Scanner@hasNext+java.util@Scanner@next": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "number"
+            },
+            {
+                "name": "a3",
+                "type": "number"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "b1",
+                "type": "symbol"
+            },
+            {
+                "name": "b2",
+                "type": "symbol"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.util.Scanner.hasNext()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "if",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "true_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "false_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a2",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            },
+            {
+                "name": "b1",
+                "domain": [
+                    {
+                        "type": "api_element",
+                        "api": "java.util.Scanner.next()",
+                        "element": {
+                            "type": "string",
+                            "relation_name": "call",
+                            "index": 2,
+                            "semantics": "caller"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "android.app@Dialog@dismiss+android.app@Dialog@isShowing": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "number"
+            },
+            {
+                "name": "a3",
+                "type": "number"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "b1",
+                "type": "symbol"
+            },
+            {
+                "name": "b2",
+                "type": "symbol"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "android.app.ProgressDialog.isShowing()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "if",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "true_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "false_flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "b2",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a2",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            },
+            {
+                "name": "b1",
+                "domain": [
+                    {
+                        "type": "api_element",
+                        "api": "android.app.ProgressDialog.dismiss()",
+                        "element": {
+                            "type": "string",
+                            "relation_name": "call",
+                            "index": 2,
+                            "semantics": "caller"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "java.io@DataOutputStream+java.io@DataOutputStream@close": {
+        "symbolic_constants": [
+            {
+                "name": "a1",
+                "type": "number"
+            },
+            {
+                "name": "a2",
+                "type": "symbol"
+            },
+            {
+                "name": "a3",
+                "type": "symbol"
+            },
+            {
+                "name": "a4",
+                "type": "number"
+            },
+            {
+                "name": "a5",
+                "type": "number"
+            }
+        ],
+        "added_facts": [
+            {
+                "name": "call",
+                "args": [
+                    {
+                        "val": "java.io.DataOutputStream.close()",
+                        "type": "string"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a2",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a4",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            },
+            {
+                "name": "flow",
+                "args": [
+                    {
+                        "val": "a1",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a5",
+                        "type": "symbolic_constant"
+                    },
+                    {
+                        "val": "a3",
+                        "type": "symbolic_constant"
+                    }
+                ],
+                "symbolic": false
+            }
+        ],
+        "symbolic_facts": "custom",
+        "domain_constraints": [
+            {
+                "name": "a4, a5",
+                "domain": [
+                    "in",
+                    "flow"
+                ]
+            },
+            {
+                "name": "a1",
+                "domain": [
+                    "none"
+                ]
+            }
+        ]
+    }
+}

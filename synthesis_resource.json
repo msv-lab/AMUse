@@ -1,0 +1,1035 @@
+{
+    "com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype()": [
+        {
+            "id": 1,
+            "method_line_no": 116,
+            "api_instance": "parentSource",
+            "in_method": "getPrimaryParent()",
+            "file_path": "/root/AMUse-data/tabnine/com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype/1.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 1489,
+            "api_instance": "proto",
+            "in_method": "getSuperType()",
+            "file_path": "/root/AMUse-data/tabnine/com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype/4.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 897,
+            "api_instance": "getPrototype()",
+            "in_method": "getSuperClassConstructor()",
+            "file_path": "/root/AMUse-data/tabnine/com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype/6.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 1489,
+            "api_instance": "proto",
+            "in_method": "getSuperType()",
+            "file_path": "/root/AMUse-data/tabnine/com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype/7.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 884,
+            "api_instance": "getPrototype()",
+            "in_method": "getSuperClassConstructor()",
+            "file_path": "/root/AMUse-data/tabnine/com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype/9.java"
+        }
+    ],
+    "android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query": [
+        {
+            "id": 1,
+            "method_line_no": 70,
+            "api_instance": "cursor",
+            "in_method": "queryIsExist(String id)",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_1.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 128,
+            "api_instance": "cursor",
+            "in_method": "logTableDump(SQLiteDatabase db, String tablename)",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 45,
+            "api_instance": "cursor",
+            "in_method": "isRead(String table, String key, int value)",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_4.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 33,
+            "api_instance": "cursor",
+            "in_method": "insertHasRead(String table, String key, int value)",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_5.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 35,
+            "api_instance": "cursor",
+            "in_method": "queryAll()",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_7.java"
+        },
+        {
+            "id": 11,
+            "method_line_no": 289,
+            "api_instance": "cursor",
+            "in_method": "assertMessageWithSubjectExists",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_11.java"
+        },
+        {
+            "id": 12,
+            "method_line_no": 807,
+            "api_instance": "cursor",
+            "in_method": "testCreateAndAlterTable",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_12.java"
+        },
+        {
+            "id": 14,
+            "method_line_no": 788,
+            "api_instance": "cursor",
+            "in_method": "testCreateAndDropTable()",
+            "file_path": "/root/AMUse-data/samples/android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query/raw_14.java"
+        }
+    ],
+    "java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream": [
+        {
+            "id": 1,
+            "method_line_no": 37,
+            "api_instance": "bos",
+            "in_method": "encodeDelegationTokenInformation",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_1.java"
+        },
+        {
+            "id": 2,
+            "method_line_no": 37,
+            "api_instance": "bos",
+            "in_method": "encodeDelegationTokenInformation",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 122,
+            "api_instance": "byteOutput",
+            "in_method": "toByteBufferV2",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 399,
+            "api_instance": "baos",
+            "in_method": "getClassHashCode",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_4.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 43,
+            "api_instance": "bos",
+            "in_method": "testReads",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_5.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 48,
+            "api_instance": "os",
+            "in_method": "toRowKey",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_6.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 406,
+            "api_instance": "out",
+            "in_method": "serialize",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_7.java"
+        },
+        {
+            "id": 8,
+            "method_line_no": 186,
+            "api_instance": "finalBuffer",
+            "in_method": "forSending",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_8.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 90,
+            "api_instance": "bos",
+            "in_method": "longToByteArray",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_9.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 84,
+            "api_instance": "bos",
+            "in_method": "longToByteArray",
+            "file_path": "/root/AMUse-data/samples/java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream/raw_10.java"
+        }
+    ],
+    "java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray": [
+        {
+            "id": 1,
+            "method_line_no": 515,
+            "api_instance": "bao",
+            "in_method": "serializeKerberosTicket",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_1.java"
+        },
+        {
+            "id": 2,
+            "method_line_no": 527,
+            "api_instance": "bos",
+            "in_method": "javaSerialize",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 96,
+            "api_instance": "bos",
+            "in_method": "getInputStream",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 32,
+            "api_instance": "bos",
+            "in_method": "serialize",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_4.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 35,
+            "api_instance": "bos",
+            "in_method": "serialize",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_5.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 188,
+            "api_instance": "bos",
+            "in_method": "javaSerialize",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_6.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 36,
+            "api_instance": "bos",
+            "in_method": "serialize",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_7.java"
+        },
+        {
+            "id": 8,
+            "method_line_no": 115,
+            "api_instance": "bao",
+            "in_method": "saveTGT",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_8.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 126,
+            "api_instance": "result",
+            "in_method": "calcClassSign",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_10.java"
+        },
+        {
+            "id": 11,
+            "method_line_no": 123,
+            "api_instance": "result",
+            "in_method": "calcClassSign",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_11.java"
+        },
+        {
+            "id": 12,
+            "method_line_no": 85,
+            "api_instance": "bos",
+            "in_method": "setAttributes",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_12.java"
+        },
+        {
+            "id": 13,
+            "method_line_no": 25,
+            "api_instance": "pout",
+            "in_method": "main",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_13.java"
+        },
+        {
+            "id": 14,
+            "method_line_no": 51,
+            "api_instance": "baos",
+            "in_method": "createCopySerializable",
+            "file_path": "/root/AMUse-data/samples/java.io.ObjectOutputStream.writeObject@java.io.ObjectOutputStream.close@java.io.ByteArrayOutputStream.toByteArray/raw_14.java"
+        }
+    ],
+    "java.util@Iterator@hasNext+java.util@Iterator@next": [
+        {
+            "id": 4,
+            "method_line_no": 136,
+            "api_instance": "iterator",
+            "in_method": "testIteratorNoSuchElementException",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_4.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 1273,
+            "api_instance": "keys",
+            "in_method": "toMap",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_6.java"
+        },
+        {
+            "id": 8,
+            "method_line_no": 123,
+            "api_instance": "it",
+            "in_method": "printList",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_8.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 62,
+            "api_instance": "unfilteredItr",
+            "in_method": "remove",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_9.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 1026,
+            "api_instance": "iterator",
+            "in_method": "pollNext",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_10.java"
+        },
+        {
+            "id": 12,
+            "method_line_no": 213,
+            "api_instance": "i",
+            "in_method": "testDescendingNavigation",
+            "file_path": "/root/AMUse-data/samples/java.util@Iterator@hasNext+java.util@Iterator@next/raw_12.java"
+        }
+    ],
+    "java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close": [
+        {
+            "id": 2,
+            "method_line_no": 108,
+            "api_instance": "resultSet",
+            "in_method": "getById",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 290,
+            "api_instance": "preparedStatement.executeQuery()",
+            "in_method": "testDeallocate",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_3.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 346,
+            "api_instance": "rs",
+            "in_method": "doInPreparedStatement",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_5.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 333,
+            "api_instance": "rs",
+            "in_method": "buildSchemaMap",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_7.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 251,
+            "api_instance": "rs",
+            "in_method": "getMLogTableName",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_9.java"
+        },
+        {
+            "id": 15,
+            "method_line_no": 160,
+            "api_instance": "rs",
+            "in_method": "captureDatabase",
+            "file_path": "/root/AMUse-data/samples/java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close/raw_15.java"
+        }
+    ],
+    "java.lang.String@getBytes": [
+        {
+            "id": 2,
+            "method_line_no": 339,
+            "api_instance": "Jefe",
+            "in_method": "testRfc2202_hmacMd5_case2",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 620,
+            "api_instance": "content",
+            "in_method": "manifest",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 290,
+            "api_instance": "Jefe",
+            "in_method": "testRfc2202_hmacSha1_case2",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_4.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 108,
+            "api_instance": "The quick brown fox jumps over the lazy dog",
+            "in_method": "testSomeOtherKnownValues",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_5.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 82,
+            "api_instance": "r\u00C9sum\u00C9",
+            "in_method": "testWriteBytes",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_6.java"
+        },
+        {
+            "id": 8,
+            "method_line_no": 196,
+            "api_instance": "input",
+            "in_method": "testKnownInputs",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_8.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 441,
+            "api_instance": "decoded",
+            "in_method": "testEncodes",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_9.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 38,
+            "api_instance": "test",
+            "in_method": "testReallySimpleFingerprints",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_10.java"
+        },
+        {
+            "id": 11,
+            "method_line_no": 193,
+            "api_instance": "str",
+            "in_method": "testInvalidUnicodeHasherPutString",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_11.java"
+        },
+        {
+            "id": 12,
+            "method_line_no": 336,
+            "api_instance": "r\u00C9sum\u00C9",
+            "in_method": "testUtf16Expected",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_12.java"
+        },
+        {
+            "id": 13,
+            "method_line_no": 106,
+            "api_instance": "ABCDefGHI\u0799",
+            "in_method": "testSimpleStringUtf8",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_13.java"
+        },
+        {
+            "id": 14,
+            "method_line_no": 177,
+            "api_instance": "hamburger\n",
+            "in_method": "testHash",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_14.java"
+        },
+        {
+            "id": 15,
+            "method_line_no": 191,
+            "api_instance": "Kilroy was here",
+            "in_method": "testNewDataInput_readUTF",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_15.java"
+        },
+        {
+            "id": 16,
+            "method_line_no": 91,
+            "api_instance": "I18N",
+            "in_method": "testToByteArray",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_16.java"
+        },
+        {
+            "id": 17,
+            "method_line_no": 66,
+            "api_instance": "string",
+            "in_method": "suiteForString",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_17.java"
+        },
+        {
+            "id": 18,
+            "method_line_no": 342,
+            "api_instance": "r\u00C9sum\u00C9",
+            "in_method": "testNewDataOutput_writeUTF",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_18.java"
+        },
+        {
+            "id": 19,
+            "method_line_no": 532,
+            "api_instance": "secret key",
+            "in_method": "testNullPointers",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_19.java"
+        },
+        {
+            "id": 20,
+            "method_line_no": 199,
+            "api_instance": "qed",
+            "in_method": "testNewDataInput_readChar",
+            "file_path": "/root/AMUse-data/samples/java.lang.String@getBytes/raw_20.java"
+        }
+    ],
+    "java.net.URLDecoder@decode": [
+        {
+            "id": 2,
+            "method_line_no": 34,
+            "api_instance": "",
+            "in_method": "getFile",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_2.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 154,
+            "api_instance": "",
+            "in_method": "getFile",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_6.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 145,
+            "api_instance": "",
+            "in_method": "getLastModifiedDate",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_7.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 412,
+            "api_instance": "",
+            "in_method": "addToClassLoader",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_9.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 60,
+            "api_instance": "",
+            "in_method": "createAuthMethodConfig",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_10.java"
+        },
+        {
+            "id": 12,
+            "method_line_no": 902,
+            "api_instance": "",
+            "in_method": "findContainingJar",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_12.java"
+        },
+        {
+            "id": 13,
+            "method_line_no": 259,
+            "api_instance": "",
+            "in_method": "getURLParams",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_13.java"
+        },
+        {
+            "id": 18,
+            "method_line_no": 58,
+            "api_instance": "",
+            "in_method": "QueryParameterMap",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_18.java"
+        },
+        {
+            "id": 20,
+            "method_line_no": 227,
+            "api_instance": "",
+            "in_method": "addParams",
+            "file_path": "/root/AMUse-data/samples/java.net.URLDecoder@decode/raw_20.java"
+        }
+    ],
+    "java.util.Map@get": [
+        {
+            "id": 5,
+            "method_line_no": 54,
+            "api_instance": "",
+            "in_method": "addContributor",
+            "file_path": "/root/AMUse-data/samples/java.util.Map@get/raw_5.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 184,
+            "api_instance": "",
+            "in_method": "get",
+            "file_path": "/root/AMUse-data/samples/java.util.Map@get/raw_10.java"
+        }
+    ],
+    "java.util.Enumeration@nextElement": [
+        {
+            "id": 1,
+            "method_line_no": 494,
+            "api_instance": "",
+            "in_method": "scanJarFile",
+            "file_path": "/root/AMUse-data/samples/java.util.Enumeration@nextElement/raw_1.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 40,
+            "api_instance": "",
+            "in_method": "find",
+            "file_path": "/root/AMUse-data/samples/java.util.Enumeration@nextElement/raw_9.java"
+        }
+    ],
+    "java.util.Scanner@next": [
+        {
+            "id": 8,
+            "method_line_no": 95,
+            "api_instance": "",
+            "in_method": "resolveEnvParams",
+            "file_path": "/root/AMUse-data/samples/java.util@Scanner@hasNext+java.util@Scanner@next/raw_8.java"
+        },
+        {
+            "id": 11,
+            "method_line_no": 23,
+            "api_instance": "",
+            "in_method": "main",
+            "file_path": "/root/AMUse-data/samples/java.util@Scanner@hasNext+java.util@Scanner@next/raw_11.java"
+        }
+    ],
+    "android.app@Dialog@dismiss": [
+        {
+            "id": 1,
+            "method_line_no": 97,
+            "api_instance": "",
+            "in_method": "removeSplashScreen",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_1.java"
+        },
+        {
+            "id": 2,
+            "method_line_no": 79,
+            "api_instance": "",
+            "in_method": "toDismissDialog",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 98,
+            "api_instance": "",
+            "in_method": "removeSplashScreen",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 98,
+            "api_instance": "",
+            "in_method": "removeSplashScreen",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_4.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 50,
+            "api_instance": "",
+            "in_method": "onFinish",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_5.java"
+        },
+        {
+            "id": 6,
+            "method_line_no": 292,
+            "api_instance": "",
+            "in_method": "setGroupList",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_6.java"
+        },
+        {
+            "id": 7,
+            "method_line_no": 451,
+            "api_instance": "",
+            "in_method": "destroy",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_7.java"
+        },
+        {
+            "id": 9,
+            "method_line_no": 249,
+            "api_instance": "",
+            "in_method": "cancelDialog",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_9.java"
+        },
+        {
+            "id": 10,
+            "method_line_no": 117,
+            "api_instance": "",
+            "in_method": "hideDialog",
+            "file_path": "/root/AMUse-data/samples/android.app@Dialog@dismiss+android.app@Dialog@isShowing/raw_10.java"
+        }
+    ],
+    "javax.swing@JFrame@setVisible": [
+        {
+            "id": 3,
+            "method_line_no": 127,
+            "api_instance": "",
+            "in_method": "run",
+            "file_path": "/root/AMUse-data/samples/javax.swing@JFrame@pack+javax.swing@JFrame@setVisible/raw_3.java"
+        },
+        {
+            "id": 19,
+            "method_line_no": 955,
+            "api_instance": "",
+            "in_method": "displayTsurgeonHelp",
+            "file_path": "/root/AMUse-data/samples/javax.swing@JFrame@pack+javax.swing@JFrame@setVisible/raw_19.java"
+        }
+    ],
+    "java.sql.Connection.prepareStatement+java.sql.PreparedStatement.close": [
+        {
+            "id": 2,
+            "method_line_no": 114,
+            "api_instance": "",
+            "in_method": "lockViaUpdate",
+            "file_path": "/root/AMUse-data/samples/java.sql@Connection@prepareStatement+java.sql@PreparedStatement@close/raw_2.java"
+        },
+        {
+            "id": 14,
+            "method_line_no": 452,
+            "api_instance": "",
+            "in_method": "saveHash",
+            "file_path": "/root/AMUse-data/samples/java.sql@Connection@prepareStatement+java.sql@PreparedStatement@close/raw_14.java"
+        }
+    ],
+    "java.sql.ResultSet@next": [
+        {
+            "id": 1,
+            "method_line_no": 50,
+            "api_instance": "",
+            "in_method": "getSessionProperty",
+            "file_path": "/root/AMUse-data/samples/java.sql.ResultSet@next/raw_1.java"
+        },
+        {
+            "id": 2,
+            "method_line_no": 108,
+            "api_instance": "",
+            "in_method": "getById",
+            "file_path": "/root/AMUse-data/samples/java.sql.ResultSet@next/raw_2.java"
+        }
+    ],
+    "java.io.DataOutputStream.<init>": [
+        {
+            "id": 6,
+            "method_line_no": 160,
+            "api_instance": "",
+            "in_method": "getPrelude",
+            "file_path": "/root/AMUse-data/samples/java.io@DataOutputStream+java.io@DataOutputStream@close/raw_6.java"
+        },
+        {
+            "id": 11,
+            "method_line_no": 202,
+            "api_instance": "",
+            "in_method": "outputParam",
+            "file_path": "/root/AMUse-data/samples/java.io@DataOutputStream+java.io@DataOutputStream@close/raw_11.java"
+        }
+    ],
+    "java.io.PrintWriter.close": [
+        {
+            "id": 3,
+            "method_line_no": 33,
+            "api_instance": "",
+            "in_method": "itemsToFile",
+            "file_path": "/root/AMUse-data/samples/java.io.PrintWriter@close/raw_3.java"
+        },
+        {
+            "id": 4,
+            "method_line_no": 87,
+            "api_instance": "",
+            "in_method": "save",
+            "file_path": "/root/AMUse-data/samples/java.io.PrintWriter@close/raw_4.java"
+        }
+    ],
+    "java.nio.ByteBuffer.flip": [
+        {
+            "id": 4,
+            "method_line_no": 900,
+            "api_instance": "",
+            "in_method": "flushCache",
+            "file_path": "/root/AMUse-data/samples/java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write/raw_4.java"
+        }
+    ],
+    "java.lang.Short.parseShort": [
+        {
+            "id": 12,
+            "method_line_no": 835,
+            "api_instance": "",
+            "in_method": "smallintPartitionKey",
+            "file_path": "/root/AMUse-data/samples/java.lang.Short.parseShort/raw_12.java"
+        }
+    ],
+    "java.lang.Long.parseLong": [
+        {
+            "id": 7,
+            "method_line_no": 312,
+            "api_instance": "",
+            "in_method": "parse",
+            "file_path": "/root/AMUse-data/samples/java.lang.Long.parseLong/raw_7.java"
+        }
+    ],
+    "java.lang.Byte.parseByte": [
+        {
+            "id": 13,
+            "method_line_no": 845,
+            "api_instance": "",
+            "in_method": "tinyintPartitionKey",
+            "file_path": "/root/AMUse-data/samples/java.lang.Byte.parseByte/raw_13.java"
+        },
+        {
+            "id": 20,
+            "method_line_no": 218,
+            "api_instance": "",
+            "in_method": "castToTinyint",
+            "file_path": "/root/AMUse-data/samples/java.lang.Byte.parseByte/raw_20.java"
+        }
+    ],
+    "javax.crypto.SecretKeyFactory.getInstance": [
+        {
+            "id": 3,
+            "method_line_no": 315,
+            "api_instance": "",
+            "in_method": "cipherLegacy",
+            "file_path": "/root/AMUse-data/samples/javax.crypto.SecretKeyFactory.getInstance/raw_3.java"
+        },
+        {
+            "id": 5,
+            "method_line_no": 58,
+            "api_instance": "",
+            "in_method": "cipher",
+            "file_path": "/root/AMUse-data/samples/javax.crypto.SecretKeyFactory.getInstance/raw_5.java"
+        }
+    ],
+    "java.util.List.get": [
+        {
+            "id": 14,
+            "method_line_no": 232,
+            "api_instance": "",
+            "in_method": "unsubscribeByEventType",
+            "file_path": "/root/AMUse-data/samples/java.util.List.get/raw_14.java"
+        },
+        {
+            "id": 19,
+            "method_line_no": 284,
+            "api_instance": "",
+            "in_method": "restore",
+            "file_path": "/root/AMUse-data/samples/java.util.List.get/raw_19.java"
+        }
+    ],
+    "javax.crypto.Cipher.getInstance": [
+        {
+            "id": "4",
+            "method_line_no": 87,
+            "in_method": "aes",
+            "file_path": "/root/AMUse-data/samples/getInstance/raw_4.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 101,
+            "in_method": "initDecryptionCipher",
+            "file_path": "/root/AMUse-data/samples/getInstance/raw_6.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 56,
+            "in_method": "CryptBuf",
+            "file_path": "/root/AMUse-data/samples/getInstance/raw_10.java"
+        }
+    ],
+    "java.sql.PreparedStatement.setFetchSize": [
+        {
+            "id": "12",
+            "method_line_no": 221,
+            "in_method": "getRecordIterator",
+            "file_path": "/root/AMUse-data/samples/setFetchSize/raw_12.java"
+        }
+    ],
+    "com.actionbarsherlock.app.SherlockActivity.onDestroy": [
+        {
+            "id": 2,
+            "method_line_no": 272,
+            "api_instance": "",
+            "in_method": "onDestroy",
+            "file_path": "/root/AMUse-data/samples/android.app.Activity.onDestroy/raw_2.java"
+        },
+        {
+            "id": 3,
+            "method_line_no": 31,
+            "api_instance": "",
+            "in_method": "onDestroy",
+            "file_path": "/root/AMUse-data/samples/android.app.Activity.onDestroy/raw_3.java"
+        }
+    ],
+    "java.io.File.mkdir": [
+        {
+            "id": "2",
+            "method_line_no": 1877,
+            "in_method": "getSubDirectory",
+            "file_path": "/root/AMUse-data/samples/mkdir/raw_2.java"
+        },
+        {
+            "id": "12",
+            "method_line_no": 35,
+            "in_method": "makeDir",
+            "file_path": "/root/AMUse-data/samples/mkdir/raw_12.java"
+        },
+        {
+            "id": "17",
+            "method_line_no": 96,
+            "in_method": "makeSureIsDirectory",
+            "file_path": "/root/AMUse-data/samples/mkdir/raw_17.java"
+        }
+    ],
+    "java.util.SortedMap.firstKey": [
+        {
+            "id": "3",
+            "method_line_no": 840,
+            "in_method": "getNearestOldBuild",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_3.java"
+        },
+        {
+            "id": "6",
+            "method_line_no": 47,
+            "in_method": "at",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_6.java"
+        },
+        {
+            "id": "8",
+            "method_line_no": 29,
+            "in_method": "selectForKey",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_8.java"
+        },
+        {
+            "id": "13",
+            "method_line_no": 92,
+            "in_method": "routeNode",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_13.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 74,
+            "in_method": "getShardInfo",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_16.java"
+        },
+        {
+            "id": "18",
+            "method_line_no": 45,
+            "in_method": "firstTagFor",
+            "file_path": "/root/AMUse-data/samples/java.util.SortedMap.firstKey/raw_18.java"
+        }
+    ],
+    "java.io.RandomAccessFile.close": [
+        {
+            "id": "2",
+            "method_line_no": 265,
+            "in_method": "readFile",
+            "file_path": "/root/AMUse-data/samples/java.io.RandomAccessFile.close/raw_2.java"
+        },
+        {
+            "id": "14",
+            "method_line_no": 62,
+            "in_method": "corruptFile",
+            "file_path": "/root/AMUse-data/samples/java.io.RandomAccessFile.close/raw_14.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 405,
+            "in_method": "close",
+            "file_path": "/root/AMUse-data/samples/java.io.RandomAccessFile.close/raw_20.java"
+        }
+    ],
+    "java.io.File.createNewFile": [
+        {
+            "id": "6",
+            "method_line_no": 145,
+            "in_method": "createFile",
+            "file_path": "/root/AMUse-data/samples/java.io.File.createNewFile/raw_6.java"
+        },
+        {
+            "id": "8",
+            "method_line_no": 14,
+            "in_method": "createFileIfNotExist",
+            "file_path": "/root/AMUse-data/samples/java.io.File.createNewFile/raw_8.java"
+        },
+        {
+            "id": "9",
+            "method_line_no": 108,
+            "in_method": "newFile",
+            "file_path": "/root/AMUse-data/samples/java.io.File.createNewFile/raw_9.java"
+        }
+    ],
+    "java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write": [
+        {
+            "id": "8",
+            "method_line_no": 150,
+            "in_method": "writeFile",
+            "file_path": "/root/AMUse-data/samples/java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write/raw_8.java"
+        },
+        {
+            "id": "10",
+            "method_line_no": 53,
+            "in_method": "write",
+            "file_path": "/root/AMUse-data/samples/java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write/raw_10.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 144,
+            "in_method": "writeFile",
+            "file_path": "/root/AMUse-data/samples/java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write/raw_16.java"
+        }
+    ],
+    "java.nio.channels@FileChannel@open+java.nio.channels@FileChannel@close": [
+        {
+            "id": "12",
+            "method_line_no": 13,
+            "in_method": "save",
+            "file_path": "/root/AMUse-data/samples/java.nio.channels@FileChannel@open+java.nio.channels@FileChannel@close/raw_12.java"
+        },
+        {
+            "id": "13",
+            "method_line_no": 288,
+            "in_method": "toFile",
+            "file_path": "/root/AMUse-data/samples/java.nio.channels@FileChannel@open+java.nio.channels@FileChannel@close/raw_13.java"
+        }
+    ],
+    "java.nio.file.Files.write": [
+        {
+            "id": "7",
+            "method_line_no": 317,
+            "in_method": "corruptJar",
+            "file_path": "/root/AMUse-data/samples/java.nio.file.Files.write/raw_7.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 158,
+            "in_method": "shouldGiveAClearErrorMessageIfTheDestinationsParentDirectoryIsAFile",
+            "file_path": "/root/AMUse-data/samples/java.nio.file.Files.write/raw_16.java"
+        },
+        {
+            "id": "20",
+            "method_line_no": 68,
+            "in_method": "copyExecutable",
+            "file_path": "/root/AMUse-data/samples/java.nio.file.Files.write/raw_20.java"
+        }
+    ],
+    "javax.crypto.Cipher.init": [
+        {
+            "id": "3",
+            "method_line_no": 101,
+            "in_method": "initDecryptionCipher",
+            "file_path": "/root/AMUse-data/samples/javax.crypto.Cipher.init/raw_3.java"
+        },
+        {
+            "id": "4",
+            "method_line_no": 87,
+            "in_method": "aes",
+            "file_path": "/root/AMUse-data/samples/javax.crypto.Cipher.init/raw_4.java"
+        },
+        {
+            "id": "16",
+            "method_line_no": 74,
+            "in_method": "encrypt",
+            "file_path": "/root/AMUse-data/samples/javax.crypto.Cipher.init/raw_16.java"
+        }
+    ],
+    "java.nio@ByteBuffer@flip+java.nio@ByteBuffer@get": [
+        {
+            "id": "2",
+            "method_line_no": 188,
+            "in_method": "flip",
+            "file_path": "/root/AMUse-data/samples/java.nio@ByteBuffer@flip+java.nio@ByteBuffer@get/raw_2.java"
+        }
+    ]
+}

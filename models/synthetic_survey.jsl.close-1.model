@@ -1,0 +1,8 @@
+Model 0
+Model: [a2 = "writer",
+ flow(3, 4, "mubench.examples.survey.Close.missingClose(java.io.File)", 1). = False,
+ a3 = "mubench.examples.survey.Close.missingClose(java.io.File)",
+ a5 = 4,
+ a4 = 3,
+ a1 = -922336]
+End to End Time: 8.427872657775879s

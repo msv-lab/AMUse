@@ -1,0 +1,151 @@
+===============================Datalog declarations=================================
+
+.decl assert(x:number, in_method_signature:symbol)
+
+.decl assigned(x:symbol, y:number, in_method_signature:symbol)
+
+.decl assignment(assigned:symbol, assignment:symbol, label:number, in_method_signature:symbol)
+
+.decl define(type:symbol, variable:symbol, value:symbol, label:number, in_method_signature:symbol)
+
+.decl catch(exception_type:symbol, exception_variable:symbol, catch_label:number, catch_body_start:number, catch_body_end:number, in_method_signature:symbol)
+
+// The actual argument passed to a method
+.decl actual_argument(meth_sig:symbol, value:symbol, label:number, index:number, in_method_signature:symbol)
+
+// The formal argument of a method
+.decl formal_argument(para: symbol, meth_start: number, index: number, in_meth_sig: symbol)
+
+.decl final(x:number, in_method_signature:symbol)
+
+.decl value(value:symbol, label:number, in_method_signature:symbol)
+
+// represent an arch connecting node x and node y
+.decl flow(x:number, y:number, in_method_signature:symbol)
+
+// arc for true branch
+.decl true_flow(x:number, y:number, in_method_signature:symbol)
+
+// arc for false branch
+.decl false_flow(x:number, y:number, in_method_signature:symbol)
+
+.decl constructor_call(constructor_signature:symbol, label:number, in_method_signature:symbol)
+
+.decl call(call_sig:symbol, label:number, target:symbol, in_method_signature:symbol)
+
+.decl method(meth_sig:symbol, in_method_signature:symbol)
+
+.decl return(x:number, in_method_signature:symbol)
+
+.decl return_value(value:symbol, x:number, in_method_signature:symbol)
+
+.decl start(x:number, in_method_signature:symbol)
+
+// label of a node
+.decl label(x:number, in_method_signature:symbol)
+
+.decl try(try_start_label:number, try_end_label:number, in_method_signature:symbol)
+
+.decl finally(try_start_label: number, finally_start: number, finally_end: number,in_method_signature:symbol)
+
+.decl variable(x:symbol, in_method_signature:symbol)
+
+.decl static_method(meth_sig:symbol, y:number, in_method_signature:symbol)
+
+.decl throw(label:number, thrown_expre:symbol, in_method_signature:symbol)
+
+.decl unary_op(kind:symbol, operand:symbol, label:number, in_method_signature:symbol)
+
+.decl binary_op(left: symbol, kind: symbol, right: symbol, label: number, in_method_signature:symbol)
+
+.decl if(label: number, in_method_signature:symbol)
+
+.decl if_var(var: symbol, label: number, in_method_signature:symbol)
+
+.decl while_condition(label: number, in_method_signature:symbol)
+
+.decl while_condition_var(var: symbol, label: number, in_method_signature:symbol)
+
+.decl for_condition(label: number, in_method_signature:symbol)
+
+.decl for_condition_var(var: symbol, label: number, in_method_signature:symbol)
+
+.decl assign_type(type: symbol, var: symbol, in_method_signature:symbol)
+
+.decl defined(var:symbol, s:number, s_meth_sig:symbol)
+
+.decl node(x: number, meth_sig: symbol)
+
+// there exists a path that allows node x to reach node y. x_meth_sig and y_meth_sig are the methods where x and y in, respectively.
+.decl flow_reach(x:number, x_meth_sig:symbol, y:number, y_meth_sig:symbol)
+
+// node x is dominated by node y. x_meth_sig and y_meth_sig are the methods where x and y in, respectively.
+.decl dom(x: number, x_meth_sig:symbol, y: number, y_meth_sig:symbol)
+
+.decl post_dom(x: number, x_meth_sig:symbol, y: number, y_meth_sig:symbol)
+
+// a variable 'var' at 's' is checked by 'op' against 'value'. The state satisfying the condition is transitioned to 't', which is the next node of 's' connected by a flow. 
+.decl sat_transition(s: number, s_meth_sig: symbol, t: number, t_meth_sig: symbol, var: symbol, op: symbol, value: symbol)
+
+================================= Datalog declarations end ===============================
+
+
+Generally, correct API usage involves essential API elements that should satisfy certain constraints. The common constraints include:
+
+1.Call-order: If an API method is called at point 'a', another method should be called at some point 'b'. The position relationship between 'a' and 'b' is: for all paths from 'a', they must go through 'b' or vice versa. 
+
+2.Condition-check: If an API method is called at point 'a', then another method must be called at point 'b' with a return value of true. For all paths that can reach 'a', they must first go through the state where the return value of the method is satisfiable.
+
+3.Return value check: If an API method is called at point 'a' and its return value is used at point 'b', then the returned value should be checked before it is used. For all paths that can reach 'b', they must first go through the state where the returned value is satisfiable. The 'use' of the returned value includes passing it as an argument to another method or invoking a method on it.
+
+4.Input value check: Sometimes, certain arguments of an API method should satisfy specific conditions. Therefore, these arguments should be checked before calling the method. If an API method is called at node 'a' and its argument 'arg_i' needs to satisfy certain condition, then 'arg_i' should be checked at some node 'b'. For all paths that can reach 'a', they must go through the state where the state of the 'arg_i' satisfies the condition.
+
+5.Exception handling: an API method might throw an exception, the API method call sometimes should be surrounded with a try-catch block. 
+
+
+Now, please reflect the most common usage patterns of the API 'java.util.Scanner.next' and refer to the common API constraints to write the Souffle Datalog rules for its correct usage patterns. When describing the positional relationships in the patterns, please consider using the provided predicates instead of defining new ones:
+dom(x, x_meth, y, y_meth) means that for all paths from the entry node to x, they must go through y.
+post_dom(x, x_meth, y, y_meth) means that for all paths to the exit node starting at x, they must go through y.
+flow_reach(x, x_meth, y, y_meth) means that there exists a path from x to y.
+When you use flow(x, y, method), please be careful because it means that x and y are immediately connected.
+
+For each API constraint which describes the relations between API elements, please consider the following pre-defined predicates when you synthesize the Datalog rules for the correct usage pattern:
+
+1. Call-order: Assume the API method is called at 'x' of 'x_meth' and another necessary method is called at 'y' of 'y_meth'. If the necessary method must be called before the API method, then their relation is dom(y, y_meth, x, x_meth), meaning that for all paths from entry to 
+dom(x, x_meth, y, y_meth) means that for all paths from the entry node to x, they must go through y.
+
+
+For each correct usage pattern, write a 'correct_usage_i' rule to indicate whether the usage pattern of the API is correct. The 'i' is the index of the pattern among all your summarized patterns. The correct_usage rule should hold if the conditions about the correct usage pattern of the API are true. Define new predicates for describing these conditions. When writing rules for the conditions, please carefully consider if your written rules satisfy the conditions. The head of the correct_usage rule should have the same arguments as the API's call literal.
+There may be multiple correct usage patterns for an API. Some patterns must occur simultaneously, while for others, only part of the pattern needs to occur. In defining a final 'correct_usage' rule, the must-occur 'correct_usage_i' rules should be grouped with conjunctions (','), whereas the optional 'correct_usage_i' rules should be grouped with disjunctions (';').
+Additionally, write an 'incorrect_usage' rule, whose head should also have the same arguments as the correct_usage rule head, and whose body should contain the API call literal and the negation of the correct_usage.
+I will provide a template for the correct_usage rule and the incorrect_usage rule. You can define multiple correct_usage rules to capture the correct usage pattern of the API.
+Your Datalog rules should strictly follow the provided template. 
+
+Template:
+correct_usage1("java.util.Scanner.next()", label_2, var1, in_meth) :- 
+    call("java.util.Scanner.next()", label_2, var1, in_meth), 
+    yourOwnDefinedCondition1(...),
+    ...
+
+yourOwnDefinedCondition1(...):-
+    ...
+
+correct_usage2("java.util.Scanner.next()", label_2, var1, in_meth) :- 
+    call("java.util.Scanner.next()", label_2, var1, in_meth), 
+    yourOwnDefinedCondition2(...),
+    ...
+
+yourOwnDefinedCondition2(...):-
+    ...
+
+correct_usage("java.util.Scanner.next()", label_2, var1, in_meth) :- 
+    correct_usage1("java.util.Scanner.next()", label_2, var1, in_meth)?
+    correct_usage2("java.util.Scanner.next()", label_2, var1, in_meth)?
+    ....
+
+
+...
+    
+incorrect_usage("java.util.Scanner.next()", label_2, var1, in_meth) :-
+    call("java.util.Scanner.next()", label_2, var1, in_meth),
+    !correct_usage("java.util.Scanner.next()", label_2, var1, in_meth).

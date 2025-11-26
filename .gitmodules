@@ -1,0 +1,4 @@
+[submodule "src/amuse/spoon_bridge"]
+	path = src/amuse/spoon_bridge
+	url = https://github.com/rainLiuplus/spoon_bridge.git
+	branch = main

@@ -1,0 +1,711 @@
+
+.decl assert(x:number, in_method_signature:symbol)
+.input assert
+
+.decl assigned(x:symbol, y:number, in_method_signature:symbol)
+.input assigned
+
+.decl assignment(assigned:symbol, assignment:symbol, label:number, in_method_signature:symbol)
+.input assignment
+
+.decl define(type:symbol, variable:symbol, value:symbol, label:number, in_method_signature:symbol)
+.input define
+
+.decl catch(exception_type:symbol, exception_variable:symbol, catch_label:number, catch_body_start:number, catch_body_end:number, in_method_signature:symbol)
+.input catch
+
+.decl arguments(value:symbol, label:number, in_method_signature:symbol)
+.input arguments
+
+.decl actual_argument(meth_sig:symbol, value:symbol, label:number, index:number, in_method_signature:symbol)
+.input actual_argument
+
+.decl formal_argument(para: symbol, meth_start: number, index: number, in_meth_sig: symbol)
+.input formal_argument
+
+.decl actual_argument_name(meth_name:symbol, value:symbol, label:number, index:number, in_method_signature:symbol)
+.input actual_argument_name
+
+.decl final(x:number, in_method_signature:symbol)
+.input final
+
+.decl value(value:symbol, label:number, in_method_signature:symbol)
+.input value
+
+.decl flow(x:number, y:number, in_method_signature:symbol)
+.input flow
+
+.decl true_flow(x:number, y:number, in_method_signature:symbol)
+.input true_flow
+
+.decl false_flow(x:number, y:number, in_method_signature:symbol)
+.input false_flow
+
+.decl constructor_call(constructor_signature:symbol, label:number, in_method_signature:symbol)
+.input constructor_call
+
+.decl instance_call(target:symbol, call_sig:symbol, label:number, in_method_signature:symbol)
+.input instance_call
+
+.decl call(call_sig:symbol, label:number, target:symbol, in_method_signature:symbol)
+.input call
+
+.decl call_name(call_name:symbol, label:number, target:symbol, in_method_signature:symbol)
+.input call_name
+
+.decl pure_call(call_sig:symbol)
+.input pure_call
+
+.decl pure_call_name(call_name:symbol)
+.input pure_call_name
+
+.decl method(meth_sig:symbol, in_method_signature:symbol)
+.input method
+
+.decl method_name(meth_name:symbol, in_method_signature:symbol)
+.input method_name
+
+.decl return(x:number, in_method_signature:symbol)
+.input return
+
+.decl return_value(value:symbol, x:number, in_method_signature:symbol)
+.input return_value
+
+.decl start(x:number, in_method_signature:symbol)
+.input start
+
+.decl label(x:number, in_method_signature:symbol)
+.input label
+
+.decl try(x:number, y:number, in_method_signature:symbol)
+.input try
+
+.decl finally(s_try: number, x: number, in_method_signature:symbol)
+.input finally
+
+.decl variable(x:symbol, in_method_signature:symbol)
+.input variable
+
+.decl static_method(meth_sig:symbol, y:number, in_method_signature:symbol)
+.input static_method
+
+.decl throw(label:number, thrown_expre:symbol, in_method_signature:symbol)
+.input throw
+
+.decl unary_op(kind:symbol, operand:symbol, label:number, in_method_signature:symbol)
+.input unary_op
+
+.decl binary_op(left: symbol, kind: symbol, right: symbol, label: number, in_method_signature:symbol)
+.input binary_op
+
+.decl if(label: number, in_method_signature:symbol)
+.input if
+
+.decl if_var(var: symbol, label: number, in_method_signature:symbol)
+.input if_var
+
+.decl while_condition(label: number, in_method_signature:symbol)
+.input while_condition
+
+.decl while_condition_var(var: symbol, label: number, in_method_signature:symbol)
+.input while_condition_var
+
+.decl for_condition(label: number, in_method_signature:symbol)
+.input for_condition
+
+.decl for_condition_var(var: symbol, label: number, in_method_signature:symbol)
+.input for_condition_var
+
+.decl assign_type(type: symbol, var: symbol, in_method_signature:symbol)
+.input assign_type
+
+.decl control_flow(s: number, s_meth_sig: symbol, t: number, t_meth_sig: symbol)
+
+.decl not_single_flow(s: number, s_meth_sig: symbol, t: number, t_meth_sig: symbol)
+
+.decl sat_transition(s: number, s_meth_sig: symbol, t: number, t_meth_sig: symbol)
+
+.decl var_condition(var: symbol, label: number, in_method_signature: symbol)
+
+control_flow(s, in_meth_sig, t, in_meth_sig) :-
+    flow(s, t, in_meth_sig).
+
+// // flow from the call site to the entry of the callee
+// control_flow(s, in_meth_sig, t, t_meth_sig) :-
+//     instance_call(_, t_meth_sig, s, in_meth_sig),
+//     start(t, t_meth_sig).
+
+// // flow from the exit of the callee to the return site
+// control_flow(t, t_meth_sig, s, s_meth_sig) :-
+//     final(t, t_meth_sig),
+//     instance_call(_, t_meth_sig, s, s_meth_sig).
+
+// //flow from the allocation site to the entry of the constructor
+// control_flow(s, s_meth_sig, t, constructor_sig) :-
+//     constructor_call(constructor_sig, s, s_meth_sig),
+//     start(t, constructor_sig).
+
+// // flow from the exit of the constructor to the return site
+// control_flow(t, constructor_sig, s, s_meth_sig) :-
+//     final(t, constructor_sig),
+//     constructor_call(constructor_sig, s, s_meth_sig).
+
+
+sat_transition(s, in_meth_sig, t, in_meth_sig) :-
+    true_flow(s, t, in_meth_sig).
+    // if_var(var, s, in_meth_sig),
+    // binary_op(var, op, value, s, in_meth_sig).
+
+sat_transition(s, in_meth_sig, t, in_meth_sig) :-
+    false_flow(s, t, in_meth_sig),
+    // if_var(var, s, in_meth_sig),
+    // binary_op(var, op, value, s, in_meth_sig),
+    unary_op("NOT", _, s, in_meth_sig),
+    !not_single_flow(s, in_meth_sig, t, in_meth_sig).
+
+not_single_flow(s, in_meth_sig, t, in_meth_sig) :-
+    flow(s, t, in_meth_sig),
+    flow(s1, t, in_meth_sig),
+    s != s1.
+
+// inter-procedural control flow analysis
+.decl flow_reach(x:number, x_meth_sig:symbol, y:number, y_meth_sig:symbol)
+flow_reach(s, in_meth_sig, s, in_meth_sig) :-
+    label(s, in_meth_sig).
+flow_reach(s, in_meth_sig, t, in_meth_sig) :-
+    flow(s, t, in_meth_sig).
+
+flow_reach(s, s_meth_sig, t, t_meth_sig) :-
+    flow_reach(s, s_meth_sig, p, p_meth_sig),
+    control_flow(p, p_meth_sig, t, t_meth_sig).
+
+// data flow analysis (intra-procedural)
+.decl defined(var:symbol, s:number, s_meth_sig:symbol)
+defined(v, s, s_meth_sig):-
+    define(_, v, _, s, s_meth_sig).
+
+
+// // data flow analysis (inter-procedural)
+
+// .decl data_flow(to: symbol, s: number, s_meth_sig: symbol, from: symbol, t: number, t_meth_sig: symbol) // unit flow (exact assignment)
+
+// data_flow(to, s, meth_sig, from, s, meth_sig):-
+//     assignment(to, from, s, meth_sig).
+
+// data_flow(para, t, t_meth_sig, arg, s, in_meth_sig) :-
+//     instance_call(base, t_meth_sig, s, in_meth_sig),
+//     actual_argument(base, arg, s, idx, in_meth_sig),
+//     formal_argument(para, t, idx, t_meth_sig).
+
+// data_flow(to, t, t_meth_sig, ret_val, s, in_meth_sig) :-
+//     return_value(ret_val, s, in_meth_sig),
+//     instance_call(base, in_meth_sig, t, t_meth_sig),
+//     assigned(to, t, t_meth_sig).
+
+// data_flow(para, t, constructor_sig, arg, s, in_meth_sig) :-
+//     constructor_call(constructor_sig, s, in_meth_sig),
+//     actual_argument(constructor_sig, arg, s, idx, in_meth_sig),
+//     formal_argument(para, t, idx, constructor_sig).
+
+
+// // data assignment flow (inter-procedural)
+// .decl data_flow_reach(to: symbol, s: number, s_meth_sig: symbol, from: symbol, t: number, t_meth_sig: symbol)
+
+// data_flow_reach(to, s, meth_sig, from, t, meth_sig) :-
+//     data_flow(to, s, meth_sig, from, t, meth_sig).
+
+// data_flow_reach(to, s, meth_sig, from, t, meth_sig) :-
+//     data_flow_reach(to, s, meth_sig, mid, p, p_meth_sig),
+//     data_flow(mid, p, p_meth_sig, from, t, t_meth_sig).
+
+// .output data_flow_reach
+
+// // reaching definition analysis (inter-procedural)
+// .decl data_reach(var:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+// data_reach(var, s, meth_sig, s, meth_sig) :-
+//     variable(var, meth_sig),
+//     label(s, meth_sig).
+
+// data_reach(var, s, s_meth_sig, t, t_meth_sig) :-
+//     data_reach(var, s, s_meth_sig, p, p_meth_sig),
+//     control_flow(p, p_meth_sig, t, t_meth_sig),
+//     !assigned(var, t, t_meth_sig).
+
+
+// // must data reach analysis (inter-procedural)
+// .decl may_not_data_reach(var:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+// .decl data_must_reach(var:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+
+// may_not_data_reach(var, s, s_meth_sig, t, t_meth_sig) :-
+//     data_reach(var, s, s_meth_sig, p, p_meth_sig),
+//     control_flow(p, p_meth_sig, t, t_meth_sig),
+//     assigned(var, t, t_meth_sig).
+
+// may_not_data_reach(var, s, s_meth_sig, t, t_meth_sig) :-
+//     may_not_data_reach(var, s, s_meth_sig, p, p_meth_sig),
+//     control_flow(p, p_meth_sig, t, t_meth_sig).
+
+// data_must_reach(var, s, s_meth_sig, t, t_meth_sig) :-
+//     data_reach(var, s, s_meth_sig, t, t_meth_sig),
+//     !may_not_data_reach(var, s, s_meth_sig, t, t_meth_sig).
+
+
+// may not call followed (simple version)
+
+.decl may_not_call_followed_simple(s_call_sig:symbol, s_base: symbol, s:number, s_meth_sig:symbol, followed_call_sig:symbol, t_base:symbol, t:number, t_meth_sig:symbol)
+
+may_not_call_followed_simple(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base, t, t_meth_sig):-
+    call(s_call_sig, s, s_base, s_meth_sig),
+    control_flow(s, s_meth_sig, t, t_meth_sig),
+    !call(followed_call_sig, t, t_base, t_meth_sig),
+    call(followed_call_sig, _, _, _),
+    variable(t_base, t_meth_sig).
+
+may_not_call_followed_simple(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base, t, t_meth_sig):-
+    may_not_call_followed_simple(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base, p, p_meth_sig),
+    control_flow(p, p_meth_sig, t, t_meth_sig),
+    !call(followed_call_sig, t, t_base, t_meth_sig),
+    call(followed_call_sig, _, _, _),
+    variable(t_base, t_meth_sig).
+
+
+.decl may_not_call_followed_til_exit(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, followed_call_sig:symbol, t_base:symbol)
+
+may_not_call_followed_til_exit(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base):-
+    may_not_call_followed_simple(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base, t, t_meth_sig),
+    final(t, t_meth_sig).
+
+// may not call name followed (simple version)
+.decl may_not_call_name_followed_simple(s_call_name:symbol, s_base:symbol, s:number, s_meth_sig:symbol, followed_call_name:symbol, t_base:symbol, t:number, t_meth_sig:symbol)
+
+may_not_call_name_followed_simple(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base, t, t_meth_sig):-
+    call_name(s_call_name, s, s_base, s_meth_sig),
+    control_flow(s, s_meth_sig, t, t_meth_sig),
+    !call_name(followed_call_name, t, t_base, t_meth_sig),
+    call_name(followed_call_name, _, _, _),
+    variable(t_base, t_meth_sig).
+
+may_not_call_name_followed_simple(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base, t, t_meth_sig):-
+    may_not_call_name_followed_simple(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base, p, p_meth_sig),
+    control_flow(p, p_meth_sig, t, t_meth_sig),
+    !call_name(followed_call_name, t, t_base, t_meth_sig),
+    call_name(followed_call_name, _, _, _),
+    variable(t_base, t_meth_sig).
+
+
+.decl may_not_call_name_followed_til_exit(s_call_name:symbol, s_base:symbol, s:number, s_meth_sig:symbol, followed_call_name:symbol, t_base:symbol)
+
+may_not_call_name_followed_til_exit(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base):-
+    may_not_call_name_followed_simple(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base, t, t_meth_sig),
+    final(t, t_meth_sig).
+
+.output may_not_call_name_followed_til_exit
+
+// call must followed by some call on all paths before exit (inter-procedural)
+// s_call_sig is followed by followed_call_sig on all paths before exit
+.decl must_call_followed_before_exit(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, followed_call_sig:symbol, t_base:symbol)
+
+must_call_followed_before_exit(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base) :-
+    call(s_call_sig, s, s_base, s_meth_sig),
+    !may_not_call_followed_til_exit(s_call_sig, s_base, s, s_meth_sig, followed_call_sig, t_base),
+    call(followed_call_sig, _, t_base, _).
+
+
+.decl must_call_name_followed_before_exit(s_call_name:symbol, s_base:symbol, s:number, s_meth_sig:symbol, followed_call_name:symbol, t_base:symbol)
+
+must_call_name_followed_before_exit(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base) :-
+    call_name(s_call_name, s, s_base, s_meth_sig),
+    !may_not_call_name_followed_til_exit(s_call_name, s_base, s, s_meth_sig, followed_call_name, t_base),
+    call_name(followed_call_name, _, t_base,_).
+
+.output must_call_name_followed_before_exit
+
+// may not call preceded (simple version)
+.decl may_not_call_preceded_simple(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, preceded_call_sig:symbol, t_base:symbol, t:number, t_meth_sig:symbol)
+
+may_not_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, t, t_meth_sig):-
+    call(s_call_sig, s, s_base, s_meth_sig),
+    control_flow(t, t_meth_sig, s, s_meth_sig),
+    !call(preceded_call_sig, t, t_base, t_meth_sig),
+    call(preceded_call_sig, _, _, _),
+    variable(t_base, t_meth_sig).
+
+may_not_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, t, t_meth_sig):-
+    may_not_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, p, p_meth_sig),
+    control_flow(t, t_meth_sig, p, p_meth_sig),
+    !call(preceded_call_sig, t, t_base, t_meth_sig),
+    call(preceded_call_sig, _, _, _),
+    variable(t_base, t_meth_sig).
+
+.decl may_not_call_preceded_after_entry(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, preceded_call_sig:symbol, t_base:symbol)
+
+may_not_call_preceded_after_entry(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base):-
+    may_not_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, t, t_meth_sig),
+    start(t, t_meth_sig).
+
+
+
+// // must call preceded (simple version)
+// .decl must_call_preceded_simple(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, preceded_call_sig:symbol, t_base:symbol, t:number, t_meth_sig:symbol)
+
+// must_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, t, t_meth_sig) :-
+//     call(s_call_sig, s, s_base, s_meth_sig),
+//     !may_not_call_preceded_simple(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base, t, t_meth_sig),
+//     flow_reach(t, t_meth_sig, s, s_meth_sig),
+//     call(preceded_call_sig, _, t_base, _).
+
+
+// must call preceded after entry (simple version)
+.decl must_call_preceded_after_entry(s_call_sig:symbol, s_base:symbol, s:number, s_meth_sig:symbol, preceded_call_sig:symbol, t_base:symbol)
+
+must_call_preceded_after_entry(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base):-
+    call(s_call_sig, s, s_base, s_meth_sig),
+    !may_not_call_preceded_after_entry(s_call_sig, s_base, s, s_meth_sig, preceded_call_sig, t_base),
+    call(preceded_call_sig, _, t_base, _).
+
+
+// condition dominates. The variable used in the condition should be return value of the api call. Or the api call is in the condition.
+.decl condition_dominate(call_sig:symbol, var:symbol, t:number, t_meth_sig:symbol)
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    if(s, s_meth_sig),
+    call(call_sig, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call(call_sig, l, _, l_meth_sig),
+    if(s, s_meth_sig),
+    if_var(var, s, s_meth_sig),
+    binary_op(var, "NE", "null", s, s_meth_sig),
+    flow_reach(l, l_meth_sig, s, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call(call_sig, l, _, l_meth_sig),
+    if(s, s_meth_sig),
+    if_var(var, s, s_meth_sig),
+    binary_op(var, "EQ", "null", s, s_meth_sig),
+    flow_reach(l, l_meth_sig, s, s_meth_sig),
+    false_flow(s, s_false, s_meth_sig),
+    dom(t, t_meth_sig, s_false, s_meth_sig).
+
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    while_condition(s, s_meth_sig),
+    call(call_sig, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call(call_sig, l, _, l_meth_sig),
+    while_condition(s, s_meth_sig),
+    while_condition_var(var, s, s_meth_sig),
+    flow_reach(s, s_meth_sig, l, l_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    for_condition(s, s_meth_sig),
+    call(call_sig, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_dominate(call_sig, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call(call_sig, l, _, l_meth_sig),
+    for_condition(s, s_meth_sig),
+    for_condition_var(var, s, s_meth_sig),
+    flow_reach(s, s_meth_sig, l, l_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+.output condition_dominate
+//TODO: consider the itenrary operator like a?b:c
+
+
+.decl condition_name_dominate(call_name:symbol, var:symbol, t:number, t_meth_sig:symbol)
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    if(s, s_meth_sig),
+    call_name(call_name, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call_name(call_name, l, _, l_meth_sig),
+    if(s, s_meth_sig),
+    if_var(var, s, s_meth_sig),
+    binary_op(var, "NE", "null", s, s_meth_sig),
+    flow_reach(l, l_meth_sig, s, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call_name(call_name, l, _, l_meth_sig),
+    if(s, s_meth_sig),
+    if_var(var, s, s_meth_sig),
+    binary_op(var, "EQ", "null", s, s_meth_sig),
+    flow_reach(l, l_meth_sig, s, s_meth_sig),
+    false_flow(s, s_false, s_meth_sig),
+    dom(t, t_meth_sig, s_false, s_meth_sig).
+
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    while_condition(s, s_meth_sig),
+    call_name(call_name, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call_name(call_name, l, _, l_meth_sig),
+    while_condition(s, s_meth_sig),
+    while_condition_var(var, s, s_meth_sig),
+    flow_reach(s, s_meth_sig, l, l_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    for_condition(s, s_meth_sig),
+    call_name(call_name, s, var, s_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+condition_name_dominate(call_name, var, t, t_meth_sig) :-
+    // defined(var, l, l_meth_sig), // 7-22: replaced the defined with the following line
+    assigned(var, l, l_meth_sig),
+    call_name(call_name, l, _, l_meth_sig),
+    for_condition(s, s_meth_sig),
+    for_condition_var(var, s, s_meth_sig),
+    flow_reach(s, s_meth_sig, l, l_meth_sig),
+    true_flow(s, s_true, s_meth_sig),
+    dom(t, t_meth_sig, s_true, s_meth_sig).
+
+.output condition_name_dominate
+
+
+.decl condition_dominate_full(call_sig:symbol, var:symbol, op_kind: symbol, op_value: symbol, t:number, t_meth_sig:symbol)
+// check the argument of the call_sig before invoking the call_sig
+condition_dominate_full(call_sig, var, op_kind, op_value, t, meth_sig) :-
+    actual_argument(call_sig, var, s, idx, meth_sig),
+    call(call_sig, s, _, meth_sig),
+    if(h, meth_sig),
+    binary_op(var, op_kind, op_value, h, meth_sig),
+    true_flow(h, h_true, meth_sig),
+    dom(t, t_meth_sig, h_true, meth_sig).
+
+
+// a more general version of var_dependence
+.decl var_dep(s_var:symbol, s:number, s_meth_sig:symbol, t_var:symbol, t:number, t_meth_sig:symbol)
+
+// base case 1: l_var = r_var
+var_dep(l_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    assignment(l_var, r_var, s, meth_sig).
+
+// var itself
+var_dep(l_var, s, meth_sig, l_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig).
+var_dep(r_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    assignment(l_var, r_var, s, meth_sig).
+
+// base case 2.1: l_var = r_var.call_sig()
+var_dep(l_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    call(call_sig, s, r_var, meth_sig).
+
+//var itself
+// the first case is simalar to the second var_dep in base case 1
+// the second case
+var_dep(r_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    call(call_sig, s, r_var, meth_sig).
+
+
+// base case 2.2: l_var = r_var.call_name()
+var_dep(l_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    call_name(call_name, s, r_var, meth_sig).
+
+// var itself: the second case
+var_dep(r_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    call_name(call_name, s, r_var, meth_sig).
+
+
+// base case 3: l_var = Object(r_var)
+var_dep(l_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    constructor_call(constructor_sig, s, meth_sig),
+    actual_argument(constructor_sig, r_var, s, idx, meth_sig).
+
+// var itself: the second case
+var_dep(r_var, s, meth_sig, r_var, s, meth_sig) :-
+    assigned(l_var, s, meth_sig),
+    constructor_call(constructor_sig, s, meth_sig),
+    actual_argument(constructor_sig, r_var, s, idx, meth_sig).
+
+
+// .output data_must_reach
+
+// non-same line case
+// var_dep(var, s, s_meth_sig, dep_var, t, t_meth_sig) :-
+//     var_dep(var, t, t_meth_sig, dep_var, t, t_meth_sig),
+//     data_must_reach(var, t, t_meth_sig, s, s_meth_sig).
+
+var_dep(var, s, s_meth_sig, dep_var, p, p_meth_sig) :-
+    var_dep(var, t, t_meth_sig, dep_var, t, t_meth_sig),
+
+    // data_must_reach(var, a, a_meth_sig, t, t_meth_sig),
+    flow_reach(t, t_meth_sig, s, s_meth_sig),
+    // data_must_reach(var, a, a_meth_sig, s, s_meth_sig),
+
+    // data_must_reach(dep_var, b, b_meth_sig, t, t_meth_sig),
+    flow_reach(t, t_meth_sig, p, p_meth_sig).
+    // data_must_reach(dep_var, t, t_meth_sig, p, p_meth_sig).
+
+// interchange var_dep
+var_dep(dep_var, t, t_meth_sig, var, s, s_meth_sig) :-
+    var_dep(var, s, s_meth_sig, dep_var, t, t_meth_sig).
+
+.output var_dep
+
+
+// rules for try catch finally
+.decl in_try_catch(call_sig: symbol, var: symbol, s: number, s_meth_sig: symbol, catch_label: number, exception_type: symbol)
+.decl in_try_finally(call_sig: symbol, var: symbol, s: number, s_meth_sig: symbol, s_try: number, finally_label: number)
+
+in_try_catch(call_sig, var, s, s_meth_sig, catch_label, exception_type) :-
+    try(s_try, catch_label, s_meth_sig),
+    flow_reach(s_try, s_meth_sig, s, s_meth_sig),
+    call(call_sig, s, var, s_meth_sig),
+    flow_reach(s, s_meth_sig, catch_label, s_meth_sig),
+    catch(exception_type, _, catch_label, _, _, s_meth_sig).
+
+in_try_finally(call_sig, var, s, s_meth_sig, s_try, finally_label) :-
+    try(s_try, _, s_meth_sig),
+    flow_reach(s_try, s_meth_sig, s, s_meth_sig),
+    call(call_sig, s, var, s_meth_sig),
+    flow_reach(s, s_meth_sig, finally_label, s_meth_sig),
+    finally(s_try, finally_label, s_meth_sig).
+
+
+// // rules of var used in api calls
+// .decl var_dep_in_call_names(s_base:symbol, s_call_name:symbol, s:number, s_meth_sig:symbol, t_base:symbol, t_call_name:symbol, t:number, t_meth_sig:symbol)
+
+// var_dep_in_call_names(s_base, s_call_name, s, s_call_name, t_base, t_call_name, t, t_meth_sig):-
+//     call_name(s_call_name, s, s_base, s_meth_sig),
+//     call_name(t_call_name, t, t_base, t_meth_sig),
+//     var_dep(s_base, s, s_meth_sig, t_base, t, t_meth_sig).
+
+
+// .decl not_var_dep_in_call_names(s_base:symbol, s_call_name:symbol, s:number, s_meth_sig:symbol, t_base:symbol, t_call_name:symbol, t:number, t_meth_sig:symbol)
+
+// not_var_dep_in_call_names(s_base, s_call_name, s, s_meth_sig, t_base, t_call_name, t, t_meth_sig):-
+//     call_name(s_call_name, s, s_base, s_meth_sig),
+//     call_name(t_call_name, t, t_base, t_meth_sig),
+//     !var_dep(s_base, s, s_meth_sig, t_base, t, t_meth_sig).
+
+
+// // v used at s
+// .decl value_at_flow(v:symbol, s:number, s_meth_sig:symbol)
+// value_at_flow(v, s, meth_sig) :-
+//     defined(v, s, meth_sig),
+//     actual_argument(_, v, s, _, meth_sig),
+//     call(_, s, v, meth_sig).
+
+
+// // 2. exists a path from s to t where v is used at s but changed before t (intra-procedural)
+// .decl not_value_can_reach(v:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+// not_value_can_reach(v, s, meth_sig, t, meth_sig) :-
+//     value_at_flow(v, s, meth_sig),
+//     flow(s, t, meth_sig),
+//     assigned(v, t, meth_sig),
+//     call(_, t, v, meth_sig).
+
+// not_value_can_reach(v, s, meth_sig, t, meth_sig) :-
+//     not_value_can_reach(v, s, meth_sig, p, meth_sig),
+//     flow(p, t, meth_sig).
+
+
+// // 3. value of v used at s can reach t (intra-procedural)
+// .decl value_must_reach(v:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+// value_must_reach(v, s, meth_sig, t, meth_sig) :-
+//     value_at_flow(v, s, meth_sig),
+//     !not_value_can_reach(v, s, meth_sig, t, meth_sig),
+//     flow_reach(s, meth_sig, t, meth_sig).
+
+// .output value_must_reach
+
+// // 4. value of v is not changed from s to t (intra-procedural)
+// .decl value_not_changed(v:symbol, s:number, s_meth_sig:symbol, t:number, t_meth_sig:symbol)
+// value_not_changed(v, s, meth_sig, t, meth_sig) :-
+//     value_must_reach(v, p, meth_sig, s, meth_sig),
+//     value_must_reach(v, p, meth_sig, t, meth_sig).
+
+// .output value_not_changed
+
+// still intra-procedural dominator analysis
+.decl node(x: number, meth_sig: symbol)
+node(x, meth_sig):- flow(x, _, meth_sig).
+node(x, meth_sig):- flow(_, x, meth_sig).
+
+
+// x is not dominated by y
+.decl not_dom(x:number, x_meth_sig:symbol, y:number, y_meth_sig:symbol)
+not_dom(x, meth_sig, y, meth_sig):- 
+    node(y, meth_sig), 
+    start(x, meth_sig), 
+    x!=y.
+
+not_dom(x, meth_sig, y, meth_sig):- 
+    flow(pred, x, meth_sig), 
+    not_dom(pred, meth_sig, y, meth_sig), 
+    x!=y.
+
+// x is dominated by y
+.decl dom(x: number, x_meth_sig:symbol, y: number, y_meth_sig:symbol)
+dom(x, x_meth_sig, y, y_meth_sig):- 
+    node(x, x_meth_sig),
+    node(y, y_meth_sig), 
+    !not_dom(x, x_meth_sig, y, y_meth_sig).
+
+.output dom
+
+// // x is not postdominated by y
+// .decl not_postdom(x: number, x_meth_sig:symbol, y: number, y_meth_sig:symbol)
+// not_postdom(x, meth_sig, y, meth_sig) :- 
+//     final(x, meth_sig), 
+//     node(y, meth_sig), 
+//     x!=y.
+
+// not_postdom(x, meth_sig, y, meth_sig) :- 
+//     flow(x, succ, meth_sig), 
+//     not_postdom(succ, meth_sig, y, meth_sig),
+//     x != y.
+
+// // x is postdominated by y
+// .decl postdom(x: number, x_meth_sig:symbol, y: number, y_meth_sig:symbol)
+// postdom(x, x_meth_sig, y, y_meth_sig) :- 
+//     node(x, x_meth_sig), 
+//     node(y, y_meth_sig),
+//     !not_postdom(x, x_meth_sig, y, y_meth_sig).
+
+// .output postdom

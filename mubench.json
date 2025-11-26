@@ -1,0 +1,1130 @@
+{
+    "java.util@Iterator@hasNext+java.util@Iterator@next": [
+        {
+            "id": "argouml.026.tikanga11-1",
+            "folder_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/",
+            "file_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/src/org/argouml/persistence/ZargoFilePersister.java",
+            "api_line_no": 252
+        },
+        {
+            "id": "argouml.026.tikanga11-3",
+            "folder_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/",
+            "file_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/src/org/argouml/persistence/ZargoFilePersister.java",
+            "api_line_no": 208
+        },
+        {
+            "id": "argouml.026.tikanga11-4",
+            "folder_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/",
+            "file_path": "/root/mubench/checkouts/argouml/026/checkout/src/argouml-app/src/org/argouml/persistence/ZargoFilePersister.java",
+            "api_line_no": 252
+        },
+        {
+            "id": "closure.319.dmmc-13",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java",
+            "api_line_no": 275
+        },
+        {
+            "id": "closure.319.dmmc-1023",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/deps/SortedDependencies.java",
+            "api_line_no": 172
+        },
+        {
+            "id": "closure.319.mudetect-12",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/jsonml/Writer.java",
+            "api_line_no": 343
+        },
+        {
+            "id": "closure.319.mudetect-13",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/ReplaceMessages.java",
+            "api_line_no": 285
+        },
+        {
+            "id": "closure.319.mudetect-17",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/TightenTypes.java",
+            "api_line_no": 849
+        },
+        {
+            "id": "closure.319.mudetect-18",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/ReplaceMessages.java",
+            "api_line_no": 179
+        },
+        {
+            "id": "closure.319.tikanga-2",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/JSModuleGraph.java",
+            "api_line_no": 203
+        },
+        {
+            "id": "closure.319.tikanga-6",
+            "folder_path": "/root/mubench/checkouts/closure/319/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/319/checkout/src/com/google/javascript/jscomp/TypeCheck.java",
+            "api_line_no": 1398
+        },
+        {
+            "id": "lucene.1918.mudetect-5",
+            "folder_path": "/root/mubench/checkouts/lucene/1918/checkout/",
+            "file_path": "/root/mubench/checkouts/lucene/1918/checkout/src/java/org/apache/lucene/search/BooleanQuery.java",
+            "api_line_no": 218
+        },
+        {
+            "id": "lucene.1918.mudetect-9",
+            "folder_path": "/root/mubench/checkouts/lucene/1918/checkout/",
+            "file_path": "/root/mubench/checkouts/lucene/1918/checkout/src/java/org/apache/lucene/search/BooleanQuery.java",
+            "api_line_no": 289
+        },
+        {
+            "id": "lucene.1918.tikanga-0",
+            "folder_path": "/root/mubench/checkouts/lucene/1918/checkout/",
+            "file_path": "/root/mubench/checkouts/lucene/1918/checkout/src/java/org/apache/lucene/util/AttributeSource.java",
+            "api_line_no": 290
+        },
+        {
+            "id": "testng.677302c.dmmc-4",
+            "folder_path": "/root/mubench/checkouts/testng/677302c/checkout/",
+            "file_path": "/root/mubench/checkouts/testng/677302c/checkout/src/main/java/org/testng/xml/SuiteGenerator.java",
+            "api_line_no": 57
+        },
+        {
+            "id": "synthetic_survey.jsl.hasnext",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/OnlyNext.java",
+            "api_line_no": 7
+        },
+        {
+            "id": "synthetic_survey.jsl.setfirst",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/SetFirst.java",
+            "api_line_no": 6
+        },
+        {
+            "id": "itext.5091.dmmc-937",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/pdf/PdfPKCS7.java",
+            "api_line_no": 317
+        },
+        {
+            "id": "itext.5091.dmmc-357",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/pdf/PdfWriter.java",
+            "api_line_no": 433
+        },
+        {
+            "id": "itext.5091.dmmc-61",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/awt/PdfGraphics2D.java",
+            "api_line_no": 1559
+        }
+    ],
+    "com.google.javascript.rhino.jstype.ObjectType.getImplicitPrototype": [
+        {
+            "id": "closure.884.3",
+            "folder_path": "/root/mubench/checkouts/closure/884/checkout/",
+            "file_path": "/root/mubench/checkouts/closure/884/checkout/src/com/google/javascript/jscomp/TypeCheck.java",
+            "api_line_no": 1565
+        }
+    ],
+    "java.util.Map@get": [
+        {
+            "id": "jfreechart.881.7a",
+            "folder_path": "/root/mubench/checkouts/jfreechart/881/checkout/",
+            "file_path": "/root/mubench/checkouts/jfreechart/881/checkout/CategoryPlot.java",
+            "api_line_no": 2153
+        },
+        {
+            "id": "jfreechart.881.7b",
+            "folder_path": "/root/mubench/checkouts/jfreechart/881/checkout/",
+            "file_path": "/root/mubench/checkouts/jfreechart/881/checkout/CategoryPlot.java",
+            "api_line_no": 2432
+        },
+        {
+            "id": "jackrabbit.1678.2",
+            "folder_path": "/root/mubench/checkouts/jackrabbit/1678/checkout/",
+            "file_path": "/root/mubench/checkouts/jackrabbit/1678/checkout/the_file.java",
+            "api_line_no": 113
+        }
+    ],
+    "java.util.Map.put": [
+        {
+            "id": "synthetic_survey.jsl.mapnull",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/Maps.java",
+            "api_line_no": 11
+        },
+        {
+            "id": "lucene.754.5",
+            "folder_path": "/root/mubench/checkouts/lucene/754/build",
+            "file_path": "/root/mubench/checkouts/lucene/754/build/src/java/org/apache/lucene/search/FieldCacheImpl.java",
+            "api_line_no": 51
+        }
+    ],
+    "java.util.Enumeration@nextElement": [
+        {
+            "id": "jigsaw.205.mudetect-10",
+            "folder_path": "/root/mubench/checkouts/jigsaw/205/checkout/Jigsaw",
+            "file_path": "/root/mubench/checkouts/jigsaw/205/checkout/Jigsaw/src/classes/org/w3c/jigsaw/servlet/JigsawHttpServletRequest.java",
+            "api_line_no": 433
+        }
+    ],
+    "java.util@Scanner@hasNext+java.util@Scanner@next": [
+        {
+            "id": "thomas-s-b-visualee.410a80f.29",
+            "folder_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout",
+            "file_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java",
+            "api_line_no": 252
+        },
+        {
+            "id": "thomas-s-b-visualee.410a80f.30",
+            "folder_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout",
+            "file_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java",
+            "api_line_no": 240
+        },
+        {
+            "id": "thomas-s-b-visualee.410a80f.32",
+            "folder_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout",
+            "file_path": "/root/mubench/checkouts/thomas-s-b-visualee/410a80f/checkout/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java",
+            "api_line_no": 132
+        }
+    ],
+    "android.app@Dialog@dismiss+android.app@Dialog@isShowing": [
+        {
+            "id": "tucanmobile.27.1",
+            "folder_path": "/root/mubench/checkouts/TuCanMobile/",
+            "file_path": "/root/mubench/checkouts/TuCanMobile/src/com/dalthed/tucan/Connection/SimpleSecureBrowser.java",
+            "api_line_no": 60
+        }
+    ],
+    "javax.swing@JFrame@pack+javax.swing@JFrame@setVisible": [
+        {
+            "id": "synthetic_survey.jsl.pack-1",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/JFramePack.java",
+            "api_line_no": 11
+        },
+        {
+            "id": "synthetic_survey.jsl.pack-2",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/JFramePack.java",
+            "api_line_no": 7
+        }
+    ],
+    "java.sql@PreparedStatement@executeQuery+java.sql@ResultSet@close": [
+        {
+            "id": "chensun.cf23b99.grouminer-3",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 607
+        },
+        {
+            "id": "chensun.cf23b99.grouminer-3a",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 607
+        },
+        {
+            "id": "chensun.cf23b99.jadet-2",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabaseBoards.java",
+            "api_line_no": 334
+        },
+        {
+            "id": "chensun.cf23b99.jadet-2a",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabaseBoards.java",
+            "api_line_no": 334
+        },
+        {
+            "id": "chensun.cf23b99.jadet-5",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabaseBoards.java",
+            "api_line_no": 274
+        },
+        {
+            "id": "chensun.cf23b99.jadet-5a",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabaseBoards.java",
+            "api_line_no": 274
+        },
+        {
+            "id": "chensun.cf23b99.mudetect-4",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 22
+        }
+    ],
+    "java.sql@Connection@prepareStatement+java.sql@PreparedStatement@close": [
+        {
+            "id": "chensun.cf23b99.grouminer-9",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 696
+        },
+        {
+            "id": "chensun.cf23b99.jadet-1",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 607
+        },
+        {
+            "id": "chensun.cf23b99.jadet-1a",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/build/Phase4/src/database/SocialNetworkDatabasePosts.java",
+            "api_line_no": 607
+        },
+        {
+            "id": "chensun.cf23b99.mudetect-12",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430/src/database/SocialNetworkDatabaseBoards.java",
+            "api_line_no": 179
+        },
+        {
+            "id": "chensun.cf23b99.mudetect-13",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430/",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430/src/database/DatabaseAdmin.java",
+            "api_line_no": 1145
+        }
+    ],
+    "java.io@DataOutputStream+java.io@DataOutputStream@close": [
+        {
+            "id": "jmrtd.51.1",
+            "folder_path": "/root/mubench/checkouts/jmrtd-code-r50-passporthostapi",
+            "file_path": "/root/mubench/checkouts/jmrtd-code-r50-passporthostapi/src/sos/mrtd/SecureMessagingWrapper.java",
+            "api_line_no": 350
+        },
+        {
+            "id": "tbuktu-ntru.8126929.475",
+            "folder_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/sign/",
+            "file_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/main/java/net/sf/ntru/sign/SignaturePrivateKey.java",
+            "api_line_no": 130
+        },
+        {
+            "id": "tbuktu-ntru.8126929.476",
+            "folder_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/sign/",
+            "file_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/main/java/net/sf/ntru/sign/SignaturePublicKey.java",
+            "api_line_no": 88
+        },
+        {
+            "id": "tbuktu-ntru.8126929.473",
+            "folder_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/encrypt",
+            "file_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/encrypt/EncryptionKeyPairTest.java",
+            "api_line_no": 79
+        },
+        {
+            "id": "tbuktu-ntru.8126929.474",
+            "folder_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/sign/encrypt",
+            "file_path": "/root/mubench/checkouts/tbuktu-ntru/8126929/build/src/test/java/net/sf/ntru/sign/SignatureParametersTest.java",
+            "api_line_no": 48
+        },
+        {
+            "id": "jodatime.cc35fb2.339",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java",
+            "api_line_no": 442
+        }
+    ],
+    "java.io.PrintWriter@close": [
+        {
+            "id": "synthetic_survey.jsl.close-1",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/Close.java",
+            "api_line_no": 10
+        }
+    ],
+    "java.nio@ByteBuffer@flip+java.nio.channels@FileChannel@write": [
+        {
+            "id": "synthetic_survey.jsl.flip-2",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout/src/mubench/examples/survey/ByteBufferFlip.java",
+            "api_line_no": 17
+        }
+    ],
+    "java.lang.String": [
+        {
+            "id": "battleforge.878.3",
+            "folder_path": "/root/mubench/checkouts/battleforge/878/build",
+            "file_path": "/root/mubench/checkouts/battleforge/878/build/src/java/de/battleforge/util/BFProperties.java",
+            "api_line_no": 275
+        }
+    ],
+    "java.lang.String@getBytes": [
+        {
+            "id": "android-rcs-rcsjta.04d847.1",
+            "folder_path": "/root/mubench/checkouts/rcsjta-04d847/core",
+            "file_path": "/root/mubench/checkouts/rcsjta-ac50c79910576cf26f05b3d3e041c690e29b8355/core/src/com/orangelabs/rcs/core/ims/service/im/chat/ContributionIdGenerator.java",
+            "api_line_no": 42
+        },
+        {
+            "id": "adempiere.1312.2",
+            "folder_path": "/root/mubench/checkouts/adempiere",
+            "file_path": "/root/mubench/checkouts/adempiere/1312/1.java",
+            "api_line_no": 209
+        },
+        {
+            "id": "battleforge.878.2",
+            "folder_path": "/root/mubench/checkouts/battleforge/878/build",
+            "file_path": "/root/mubench/checkouts/battleforge/878/build/src/java/de/battleforge/util/BFProperties.java",
+            "api_line_no": 182
+        },
+        {
+            "id": "battleforge.878.4",
+            "folder_path": "/root/mubench/checkouts/battleforge/878/build",
+            "file_path": "/root/mubench/checkouts/battleforge/878/build/src/java/de/battleforge/util/BFProperties.java",
+            "api_line_no": 275
+        }
+    ],
+    "java.io.DataOutputStream.writeLong@java.io.DataOutputStream.flush@java.io.DataOutputStream": [
+        {
+            "id": "apache-gora.bb09d89.56_1",
+            "folder_path": "/root/mubench/checkouts/apache-gora/bb09d89/build/gora-accumulo",
+            "file_path": "/root/mubench/checkouts/apache-gora/bb09d89/build/gora-accumulo/src/test/java/org/apache/gora/accumulo/store/PartitionTest.java",
+            "api_line_no": 37
+        },
+        {
+            "id": "apache-gora.bb09d89.56_2",
+            "folder_path": "/root/mubench/checkouts/apache-gora/bb09d89/build/gora-core",
+            "file_path": "/root/mubench/checkouts/apache-gora/bb09d89/build/gora-core/src/test/java/org/apache/gora/util/TestWritableUtils.java",
+            "api_line_no": 39
+        },
+        {
+            "id": "bcel.24014e5.101",
+            "folder_path": "/root/mubench/checkouts/bcel/24014e5/build",
+            "file_path": "/root/mubench/checkouts/bcel/24014e5/build/src/main/java/org/apache/commons/bcel6/generic/InstructionList.java",
+            "api_line_no": 948
+        },
+        {
+            "id": "logblock-logblock-2.40548aa.15",
+            "folder_path": "/root/mubench/checkouts/logblock-logblock-2/40548aa/checkout/LogBlock-2-API",
+            "file_path": "/root/mubench/checkouts/logblock-logblock-2/40548aa/checkout/LogBlock-2-API/src/test/java/org/logblock/entry/BlobTest.java",
+            "api_line_no": 16
+        },
+        {
+            "id": "mqtt.f438425.389",
+            "folder_path": "/root/mubench/checkouts/mqtt/checkout/org.eclipse.paho.client.mqttv3",
+            "file_path": "/root/mubench/checkouts/mqtt/checkout/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttSubscribe.java",
+            "api_line_no": 134
+        },
+        {
+            "id": "mqtt.f438425.390",
+            "folder_path": "/root/mubench/checkouts/mqtt/checkout/org.eclipse.paho.client.mqttv3",
+            "file_path": "/root/mubench/checkouts/mqtt/checkout/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttUnsubscribe.java",
+            "api_line_no": 109
+        },
+        {
+            "id": "jodatime.cc35fb2.269",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateMidnight_Basics.java",
+            "api_line_no": 419
+        },
+        {
+            "id": "jodatime.cc35fb2.270",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTimeComparator.java",
+            "api_line_no": 266
+        },
+        {
+            "id": "jodatime.cc35fb2.271",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTimeComparator.java",
+            "api_line_no": 286
+        },
+        {
+            "id": "jodatime.cc35fb2.272",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTimeFieldType.java",
+            "api_line_no": 313
+        },
+        {
+            "id": "jodatime.cc35fb2.273",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTimeZone.java",
+            "api_line_no": 1022
+        },
+        {
+            "id": "jodatime.cc35fb2.274",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTimeZone.java",
+            "api_line_no": 1040
+        },
+        {
+            "id": "jodatime.cc35fb2.275",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDateTime_Basics.java",
+            "api_line_no": 484
+        },
+        {
+            "id": "jodatime.cc35fb2.276",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDays.java",
+            "api_line_no": 237
+        },
+        {
+            "id": "jodatime.cc35fb2.277",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDurationFieldType.java",
+            "api_line_no": 175
+        },
+        {
+            "id": "jodatime.cc35fb2.278",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestDuration_Basics.java",
+            "api_line_no": 234
+        },
+        {
+            "id": "jodatime.cc35fb2.279",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestHours.java",
+            "api_line_no": 206
+        },
+        {
+            "id": "jodatime.cc35fb2.280",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestHours.java",
+            "api_line_no": 364
+        },
+        {
+            "id": "jodatime.cc35fb2.281",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestInterval_Basics.java",
+            "api_line_no": 1024
+        },
+        {
+            "id": "jodatime.cc35fb2.282",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestLocalDateTime_Basics.java",
+            "api_line_no": 1048
+        },
+        {
+            "id": "jodatime.cc35fb2.283",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestLocalDate_Basics.java",
+            "api_line_no": 1103
+        },
+        {
+            "id": "jodatime.cc35fb2.284",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestLocalTime_Basics.java",
+            "api_line_no": 763
+        },
+        {
+            "id": "jodatime.cc35fb2.285",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMinutes.java",
+            "api_line_no": 196
+        },
+        {
+            "id": "jodatime.cc35fb2.286",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMonthDay_Basics.java",
+            "api_line_no": 766
+        },
+        {
+            "id": "jodatime.cc35fb2.287",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMonths.java",
+            "api_line_no": 233
+        },
+        {
+            "id": "jodatime.cc35fb2.288",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMutableDateTime_Basics.java",
+            "api_line_no": 388
+        },
+        {
+            "id": "jodatime.cc35fb2.289",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMutableInterval_Basics.java",
+            "api_line_no": 449
+        },
+        {
+            "id": "jodatime.cc35fb2.290",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestMutableInterval_Basics.java",
+            "api_line_no": 160
+        },
+        {
+            "id": "jodatime.cc35fb2.291",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestPartial_Basics.java",
+            "api_line_no": 778
+        },
+        {
+            "id": "jodatime.cc35fb2.292",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestPeriodType.java",
+            "api_line_no": 109
+        },
+        {
+            "id": "jodatime.cc35fb2.293",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestPeriodType.java",
+            "api_line_no": 124
+        },
+        {
+            "id": "jodatime.cc35fb2.294",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestPeriod_Basics.java",
+            "api_line_no": 227
+        },
+        {
+            "id": "jodatime.cc35fb2.295",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestSeconds.java",
+            "api_line_no": 193
+        },
+        {
+            "id": "jodatime.cc35fb2.296",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/resources/org/joda/time/TestTimeOfDay_Basics.java",
+            "api_line_no": 850
+        },
+        {
+            "id": "jodatime.cc35fb2.297",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestWeeks.java",
+            "api_line_no": 195
+        },
+        {
+            "id": "jodatime.cc35fb2.298",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestYearMonthDay_Basics.java",
+            "api_line_no": 776
+        },
+        {
+            "id": "jodatime.cc35fb2.299",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestYearMonth_Basics.java",
+            "api_line_no": 600
+        },
+        {
+            "id": "jodatime.cc35fb2.300",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/TestYears.java",
+            "api_line_no": 178
+        },
+        {
+            "id": "jodatime.cc35fb2.301",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/field/TestMillisDurationField.java",
+            "api_line_no": 199
+        },
+        {
+            "id": "jodatime.cc35fb2.302",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/field/TestPreciseDurationField.java",
+            "api_line_no": 258
+        },
+        {
+            "id": "jodatime.cc35fb2.303",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/field/TestScaledDurationField.java",
+            "api_line_no": 275
+        },
+        {
+            "id": "jodatime.cc35fb2.304",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/test/java/org/joda/time/tz/TestCachedDateTimeZone.java",
+            "api_line_no": 65
+        }
+    ],
+    "java.net.URLDecoder@decode": [
+        {
+            "id": "asterisk-java.304421c.81",
+            "folder_path": "/root/mubench/checkouts/asterisk-java/304421c/build",
+            "file_path": "/root/mubench/checkouts/asterisk-java/304421c/build/src/main/java/org/asteriskjava/manager/event/AsyncAgiEvent.java",
+            "api_line_no": 195
+        }
+    ],
+    "java.lang.Long.parseLong": [
+        {
+            "id": "jriecken-gae-java-mini-profiler.80f3a59.39",
+            "folder_path": "/root/mubench/checkouts/jriecken-gae-java-mini-profiler/80f3a59/build",
+            "file_path": "/root/mubench/checkouts/jriecken-gae-java-mini-profiler/80f3a59/build/src/main/java/com/google/appengine/tools/appstats/MiniProfilerAppstats.java",
+            "api_line_no": 48
+        },
+        {
+            "id": "asterisk-java.41461b4.194",
+            "folder_path": "/root/mubench/checkouts/asterisk-java/41461b4/checkout/",
+            "file_path": "/root/mubench/checkouts/asterisk-java/41461b4/checkout/src/main/java/org/asteriskjava/manager/event/RtcpReceivedEvent.java",
+            "api_line_no": 141
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.128",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/Cid.java",
+            "api_line_no": 17
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.129",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/Id.java",
+            "api_line_no": 21
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.130",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/Uid.java",
+            "api_line_no": 19
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.131",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/Suid.java",
+            "api_line_no": 13
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.132",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/TargetUid.java",
+            "api_line_no": 13
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.133",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/SourceUid.java",
+            "api_line_no": 13
+        },
+        {
+            "id": "hoverruan-weiboclient4j.6ca0c73.134",
+            "folder_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/",
+            "file_path": "/root/mubench/checkouts/hoverruan-weiboclient4j/6ca0c73/checkout/src/main/java/weiboclient4j/params/TagId.java",
+            "api_line_no": 17
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.96",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 194
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.97",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 194
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.98",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/build/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 203
+        }
+    ],
+    "javax.crypto.SecretKeyFactory.getInstance": [
+        {
+            "id": "chensun.cf23b99.1",
+            "folder_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430",
+            "file_path": "/root/mubench/checkouts/chensun/cf23b99/checkout/CS5430/src/server/generateChecksumPostsAndReplies.java",
+            "api_line_no": 19
+        }
+    ],
+    "java.lang.Byte.parseByte": [
+        {
+            "id": "ivantrendafilov-confucius.2c30287.93",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 94
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.94",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 98
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.95",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 103
+        }
+    ],
+    "java.lang.Short.parseShort": [
+        {
+            "id": "ivantrendafilov-confucius.2c30287.99",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 214
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.100",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 214
+        },
+        {
+            "id": "ivantrendafilov-confucius.2c30287.101",
+            "folder_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/",
+            "file_path": "/root/mubench/checkouts/ivantrendafilov-confucius/2c30287/checkout/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java",
+            "api_line_no": 214
+        }
+    ],
+    "android.database@Cursor@close+android.database.sqlite@SQLiteDatabase@query": [
+        {
+            "id": "ushahidia.100.1",
+            "folder_path": "/root/mubench/checkouts/Ushahidi_Android-5750c01198d597f63ea17b1d79e6bdd6a2bcaeb1/Core/",
+            "file_path": "/root/mubench/checkouts/Ushahidi_Android-5750c01198d597f63ea17b1d79e6bdd6a2bcaeb1/Core/src/com/ushahidi/android/app/database/OpenGeoSmsDao.java",
+            "api_line_no": 22
+        }
+    ],
+    "java.util.List": [
+        {
+            "id": "closure.884.4",
+            "folder_path": "/root/mubench/checkouts/closure/319/build",
+            "file_path": "/root/mubench/checkouts/closure/319/build/src/com/google/javascript/jscomp/deps/SortedDependencies.java",
+            "api_line_no": 171
+        },
+        {
+            "id": "closure.319.mudetectxp-13",
+            "folder_path": "/root/mubench/checkouts/closure/319/build",
+            "file_path": "/root/mubench/checkouts/closure/319/build/src/com/google/javascript/jscomp/deps/SortedDependencies.java",
+            "api_line_no": 171
+        },
+        {
+            "id": "synthetic_survey.jsl.listget",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/checkout",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/build/src/mubench/examples/survey/ListGet.java",
+            "api_line_no": 7
+        },
+        {
+            "id": "asterisk-java.304421c.dmmc-8",
+            "folder_path": "/root/mubench/checkouts/asterisk-java/304421c/checkout",
+            "file_path": "/root/mubench/checkouts/asterisk-java/304421c/build/src/main/java/org/asteriskjava/manager/internal/EventBuilderImpl.java",
+            "api_line_no": 281
+        },
+        {
+            "id": "asterisk-java.304421c.dmmc-9",
+            "folder_path": "/root/mubench/checkouts/asterisk-java/304421c/checkout",
+            "file_path": "/root/mubench/checkouts/asterisk-java/304421c/build/src/main/java/org/asteriskjava/manager/internal/EventBuilderImpl.java",
+            "api_line_no": 281
+        }
+    ],
+    "javax.crypto.Cipher.getInstance": [
+        {
+            "id": "tap-apps.62.1",
+            "folder_path": "/root/mubench/checkouts/tap-apps-code-r61-trunk/",
+            "file_path": "/root/mubench/checkouts/tap-apps-code-r61-trunk/opentapas/jconduits/source/org/jSyncManager/Conduit/NSMobileMessenger/NSMobileMessenger.java",
+            "api_line_no": 480
+        }
+    ],
+    "java.sql.Statement.setFetchSize": [
+        {
+            "id": "jackrabbit.3090.11",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/jackrabbit/3090/ConnectionHelper.java",
+            "api_line_no": 359
+        }
+    ],
+    "java.io.File.mkdir": [
+        {
+            "id": "jackrabbit-incubator.201.2",
+            "folder_path": "/root/mubench/checkouts/jackrabbit-incubator/201",
+            "file_path": "/root/mubench/checkouts/jackrabbit-incubator/201/1.java",
+            "api_line_no": 66
+        }
+    ],
+    "java.io.File.createNewFile": [
+        {
+            "id": "lucene.207.3",
+            "folder_path": "/root/mubench/checkouts/lucene/207/checkout/",
+            "file_path": "/root/mubench/checkouts/lucene/207/build/src/java/org/apache/lucene/store/FSDirectory.java",
+            "api_line_no": 299
+        }
+    ],
+    "java.io.FileInputStream": [
+        {
+            "id": "synthetic_survey.jsl.fisexists",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/build/src/mubench/examples/survey/FISExists.java",
+            "api_line_no": 8
+        }
+    ],
+    "android.app.Activity.onDestroy": [
+        {
+            "id": "lnreadera.62.1",
+            "folder_path": "/root/mubench/checkouts/LNReader-Android-e44495fb8466c3a5063b2b229053d9b5ece92379/LNReader/",
+            "file_path": "/root/mubench/checkouts/LNReader-Android-e44495fb8466c3a5063b2b229053d9b5ece92379/LNReader/src/com/erakk/lnreader/activity/DisplayImageActivity.java",
+            "api_line_no": 63
+        },
+        {
+            "id": "lnreadera.62.2",
+            "folder_path": "/root/mubench/checkouts/LNReader-Android-e44495fb8466c3a5063b2b229053d9b5ece92379/LNReader/",
+            "file_path": "/root/mubench/checkouts/LNReader-Android-e44495fb8466c3a5063b2b229053d9b5ece92379/LNReader/src/com/erakk/lnreader/activity/DisplayImageActivity.java",
+            "api_line_no": 128
+        }
+    ],
+    "javax.crypto.Cipher.init": [
+        {
+            "id": "alibaba-druid.e10f28.2",
+            "folder_path": "/root/mubench/checkouts/alibaba-druid/e10f28/build",
+            "file_path": "/root/mubench/checkouts/alibaba-druid/e10f28/build/src/main/java/com/alibaba/druid/filter/config/ConfigTools.java",
+            "api_line_no": 161
+        },
+        {
+            "id": "alibaba-druid.e10f28.1",
+            "folder_path": "/root/mubench/checkouts/alibaba-druid/e10f28/build",
+            "file_path": "/root/mubench/checkouts/alibaba-druid/e10f28/build/src/main/java/com/alibaba/druid/filter/config/ConfigTools.java",
+            "api_line_no": 128
+        },
+        {
+            "id": "jmrtd.67.2",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/jmrtd/67/checkout/1.java",
+            "api_line_no": 200
+        }
+    ],
+    "javax.crypto.Cipher.doFinal": [
+        {
+            "id": "pawotag.82.1",
+            "folder_path": "/root/mubench/checkouts/pawotag/",
+            "file_path": "/root/mubench/checkouts/pawotag/1.java",
+            "api_line_no": 118
+        }
+    ],
+    "android.content.pm.ApplicationInfo.loadIcon": [
+        {
+            "id": "screen-notifications.23.1",
+            "folder_path": "/root/mubench/checkouts/screen-notifications/",
+            "file_path": "/root/mubench/checkouts/screen-notifications/src/com/lukekorth/screennotifications/AppsActivity.java",
+            "api_line_no": 89
+        }
+    ],
+    "android.content.res.TypedArray.getString": [
+        {
+            "id": "calligraphy.41.1",
+            "folder_path": "/root/mubench/checkouts/Calligraphy-22f1ec0058681b8fb1e667f6b09caec174cd2df9/calligraphy/",
+            "file_path": "/root/mubench/checkouts/Calligraphy-22f1ec0058681b8fb1e667f6b09caec174cd2df9/calligraphy/src/main/java/uk/co/chrisjenx/calligraphy/CalligraphyUtils.java",
+            "api_line_no": 62
+        },
+        {
+            "id": "calligraphy.41.1",
+            "folder_path": "/root/mubench/checkouts/Calligraphy-22f1ec0058681b8fb1e667f6b09caec174cd2df9/calligraphy/",
+            "file_path": "/root/mubench/checkouts/Calligraphy-22f1ec0058681b8fb1e667f6b09caec174cd2df9/calligraphy/src/main/java/uk/co/chrisjenx/calligraphy/CalligraphyUtils.java",
+            "api_line_no": 71
+        }
+    ],
+    "android.content.Intent.setDataAndType": [
+        {
+            "id": "cgeo.887.1",
+            "folder_path": "/root/mubench/checkouts/cgeo-774b9b157709fc0a3948b2d2677a7d45541db3de/",
+            "file_path": "/root/mubench/checkouts/cgeo-774b9b157709fc0a3948b2d2677a7d45541db3de/main/src/cgeo/geocaching/cgeoimages.java",
+            "api_line_no": 200
+        }
+    ],
+    "java.text.SimpleDateFormat.<init>": [
+        {
+            "id": "httpclient.452.4",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/httpclient/452/checkout/4.java",
+            "api_line_no": 207
+        }
+    ],
+    "org.apache.commons.httpclient.auth.AuthState.isPreemptive": [
+        {
+            "id": "httpclient.444.3",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/httpclient/444/checkout/3.java",
+            "api_line_no": 729
+        },
+        {
+            "id": "httpclient.444.2",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/httpclient/444/checkout/2.java",
+            "api_line_no": 662
+        }
+    ],
+    "org.apache.commons.httpclient.HttpConnection.open": [
+        {
+            "id": "httpclient.302.1",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/httpclient/302/checkout/1.java",
+            "api_line_no": 355
+        }
+    ],
+    "org.kohsuke.args4j.spi.Parameters.getParameter": [
+        {
+            "id": "closure.319.2",
+            "folder_path": "/root/mubench/checkouts/closure/319/build",
+            "file_path": "/root/mubench/checkouts/closure/319/build/src/com/google/javascript/jscomp/CommandLineRunner.java",
+            "api_line_no": 333
+        }
+    ],
+    "java.io.RandomAccessFile.close": [
+        {
+            "id": "lucene.1251.1",
+            "folder_path": "/root/mubench/checkouts/lucene/1251/build",
+            "file_path": "/root/mubench/checkouts/lucene/1251/build/src/java/org/apache/lucene/store/FSDirectory.java",
+            "api_line_no": 634
+        }
+    ],
+    "java.nio@ByteBuffer@flip+java.nio@ByteBuffer@get": [
+        {
+            "id": "synthetic_survey.jsl.flip-1",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/build/src/mubench/examples/survey/ByteBufferFlip.java",
+            "api_line_no": 12
+        }
+    ],
+    "java.nio.channels@FileChannel@open+java.nio.channels@FileChannel@close": [
+        {
+            "id": "synthetic_survey.jsl.flush",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/build/src/mubench/examples/survey/ChannelFlush.java",
+            "api_line_no": 11
+        }
+    ],
+    "java.nio.file.Files.write": [
+        {
+            "id": "synthetic_survey.jsl.nofile",
+            "folder_path": "/root/mubench/checkouts/synthetic_survey/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_survey/jsl/build/src/mubench/examples/survey/NoFile.java",
+            "api_line_no": 8
+        }
+    ],
+    "java.util.Optional.get": [
+        {
+            "id": "synthetic_java8-misuses.96d0ccb.optional-map-unchecked-get",
+            "folder_path": "/root/mubench/checkouts/synthetic_java8-misuses/96d0ccb/build",
+            "file_path": "/root/mubench/checkouts/synthetic_java8-misuses/96d0ccb/build/src/com/xpinjection/java8/misused/optional/HundredAndOneApproach.java",
+            "api_line_no": 45
+        }
+    ],
+    "android.os.Environment.getExternalStorageState": [
+        {
+            "id": "androiduil.660.1",
+            "folder_path": "/root/mubench/checkouts/Android-Universal-Image-Loader/library",
+            "file_path": "/root/mubench/checkouts/Android-Universal-Image-Loader/library/src/com/nostra13/universalimageloader/utils/StorageUtils.java",
+            "api_line_no": 66
+        }
+    ],
+    "java.io.InputStream.read": [
+        {
+            "id": "jackrabbit.1750.5",
+            "folder_path": "",
+            "file_path": "/root/mubench/checkouts/jackrabbit/1750/checkout/QValueFactoryImpl.java",
+            "api_line_no": 584
+        }
+    ],
+    "java.lang.Object.wait()": [
+        {
+            "id": "synthetic_directives.jsl.wait-loop",
+            "folder_path": "/root/mubench/checkouts/synthetic_directives/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_directives/jsl/build/src/mubench/examples/directives/WaitWithoutLoop.java",
+            "api_line_no": 4
+        }
+    ],
+    "java.lang.Throwable": [
+        {
+            "id": "synthetic_directives.jsl.supresserror",
+            "folder_path": "/root/mubench/checkouts/synthetic_directives/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_directives/jsl/build/src/mubench/examples/directives/SupressError.java",
+            "api_line_no": 6
+        }
+    ],
+    "synchronize": [
+        {
+            "id": "synthetic_directives.jsl.deadlock",
+            "folder_path": "/root/mubench/checkouts/synthetic_directives/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_directives/jsl/build/src/mubench/examples/directives/Deadlock.java",
+            "api_line_no": 4
+        },
+        {
+            "id": "synthetic_directives.jsl.unsynchronized",
+            "folder_path": "/root/mubench/checkouts/synthetic_directives/jsl/build",
+            "file_path": "/root/mubench/checkouts/synthetic_directives/jsl/build/src/mubench/examples/directives/Unsynchronized.java",
+            "api_line_no": 8
+        }
+    ],
+    "java.util.StringTokenizer": [
+        {
+            "id": "jodatime.cc35fb2.363",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java",
+            "api_line_no": 488
+        },
+        {
+            "id": "itext.5091.dmmc-16",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build/itext",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/pdf/CJKFont.java",
+            "api_line_no": 391
+        },
+        {
+            "id": "jodatime.cc35fb2.362",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java",
+            "api_line_no": 488
+        }
+    ],
+    "java.util.StringTokenizer.nextToken": [
+        {
+            "id": "itext.5091.dmmc-18",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build/itext",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/html/WebColors.java",
+            "api_line_no": 236
+        },
+        {
+            "id": "itext.5091.dmmc-15",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build/itext",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/html/WebColors.java",
+            "api_line_no": 236
+        },
+        {
+            "id": "jodatime.cc35fb2.361",
+            "folder_path": "/root/mubench/checkouts/jodatime/cc35fb2/build",
+            "file_path": "/root/mubench/checkouts/jodatime/cc35fb2/build/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java",
+            "api_line_no": 696
+        }
+    ],
+    "placeholder": [
+        {
+            "id": "onosendai.100.1",
+            "folder_path": "/root/mubench/checkouts/onosendai/100",
+            "file_path": "/root/mubench/checkouts/onosendai/100/src/main/java/com/vaguehope/onosendai/update/AlarmReceiver.java",
+            "api_line_no": 29
+        },
+        {
+            "id": "itext.5091.1",
+            "folder_path": "/root/mubench/checkouts/itext/5091/build/itext",
+            "file_path": "/root/mubench/checkouts/itext/5091/build/itext/src/main/java/com/itextpdf/text/pdf/PdfPublicKeySecurityHandler.java",
+            "api_line_no": 253
+        },
+        {
+            "id": "lucene.1918.1",
+            "folder_path": "/root/mubench/checkouts/lucene/1918/build",
+            "file_path": "/root/mubench/checkouts/lucene/1918/build/src/java/org/apache/lucene/store/db/DbDirectory.java",
+            "api_line_no": 123
+        },
+        {
+            "id": "testng.cd80791.22",
+            "folder_path": "/root/mubench/checkouts/testng/cd80791/build",
+            "file_path": "/root/mubench/checkouts/testng/cd80791/build/src/main/java/org/testng/internal/Utils.java",
+            "api_line_no": 123
+        },
+        {
+            "id": "testng.92e7da1.21",
+            "folder_path": "/root/mubench/checkouts/testng/92e7da1/build",
+            "file_path": "/root/mubench/checkouts/testng/92e7da1/build/src/main/java/org/testng/internal/Utils.java",
+            "api_line_no": 123
+        },
+        {
+            "id": "testng.d6dfce3.18",
+            "folder_path": "/root/mubench/checkouts/testng/d6dfce3/build",
+            "file_path": "/root/mubench/checkouts/testng/d6dfce3/build/src/main/java/org/testng/internal/Utils.java",
+            "api_line_no": 123
+        },
+        {
+            "id": "gnucrasha",
+            "folder_path": "/root/mubench/checkouts/gnucash-android/",
+            "file_path": "/root/mubench/checkouts/gnucash-android/android.database.sqlite.SQLiteDatabase.query.methods_with_api_calls.facts",
+            "api_line_no": 123
+        },
+        {
+            "id": "jackrabbit.2681",
+            "folder_path": "/root/mubench/checkouts/jackrabbit/2681/",
+            "file_path": "/root/mubench/checkouts/jackrabbit/2681/XMLPersistenceManager.java",
+            "api_line_no": 123
+        }
+    ]
+}

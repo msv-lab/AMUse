@@ -1,0 +1,1 @@
+org.slf4j.Logger	org.apache.camel.converter.NIOConverter.LOG
